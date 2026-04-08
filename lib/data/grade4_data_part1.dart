@@ -1,0 +1,1404 @@
+import '../models/kanji.dart';
+
+const List<KanjiChar> grade4KanjiPart1 = [
+  // 1. 愛
+  KanjiChar(
+    character: '愛',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['アイ'],
+    examples: [
+      ExampleWord(word: '愛', reading: 'あい', meaning: '大切に思う気もち', sentence: '母の愛はとても大きい。'),
+      ExampleWord(word: '愛犬', reading: 'あいけん', meaning: 'かわいがっている犬', sentence: '愛犬と公園を走った。'),
+      ExampleWord(word: '愛用', reading: 'あいよう', meaning: 'いつも使うこと', sentence: '父は愛用の時計を大切にしている。'),
+      ExampleWord(word: '愛読', reading: 'あいどく', meaning: 'いつも読むこと', sentence: 'この本は愛読している。'),
+      ExampleWord(word: '愛国', reading: 'あいこく', meaning: '自分の国を大切に思うこと', sentence: '愛国の気もちを学んだ。'),
+    ],
+  ),
+  // 2. 案
+  KanjiChar(
+    character: '案',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['アン'],
+    examples: [
+      ExampleWord(word: '案', reading: 'あん', meaning: '考え、思いつき', sentence: 'いい案が出た。'),
+      ExampleWord(word: '案内', reading: 'あんない', meaning: 'みちびくこと', sentence: '先生が校内を案内してくれた。'),
+      ExampleWord(word: '名案', reading: 'めいあん', meaning: 'すばらしい考え', sentence: '友だちが名案を出してくれた。'),
+      ExampleWord(word: '案外', reading: 'あんがい', meaning: '思ったよりも', sentence: 'この問題は案外かんたんだった。'),
+      ExampleWord(word: '考案', reading: 'こうあん', meaning: '考え出すこと', sentence: '新しいあそびを考案した。'),
+    ],
+  ),
+  // 3. 以
+  KanjiChar(
+    character: '以',
+    grade: 4,
+    kunReadings: ['もっ-て'],
+    onReadings: ['イ'],
+    examples: [
+      ExampleWord(word: '以上', reading: 'いじょう', meaning: 'それよりも上', sentence: '百点以上はとれない。'),
+      ExampleWord(word: '以下', reading: 'いか', meaning: 'それよりも下', sentence: '十人以下のグループを作ろう。'),
+      ExampleWord(word: '以前', reading: 'いぜん', meaning: 'まえのこと', sentence: '以前はこの町に住んでいた。'),
+      ExampleWord(word: '以内', reading: 'いない', meaning: 'そのなかに入ること', sentence: '三日以内に読み終わりたい。'),
+      ExampleWord(word: '以来', reading: 'いらい', meaning: 'それからずっと', sentence: '入学以来、毎日元気に通っている。'),
+    ],
+  ),
+  // 4. 衣
+  KanjiChar(
+    character: '衣',
+    grade: 4,
+    kunReadings: ['ころも'],
+    onReadings: ['イ'],
+    examples: [
+      ExampleWord(word: '衣', reading: 'ころも', meaning: 'きもの、きるもの', sentence: '白い衣を着た人が来た。'),
+      ExampleWord(word: '衣食住', reading: 'いしょくじゅう', meaning: 'きること・食べること・住むこと', sentence: '衣食住は生活の元だ。'),
+      ExampleWord(word: '衣服', reading: 'いふく', meaning: 'きるもの', sentence: '新しい衣服を買ってもらった。'),
+      ExampleWord(word: '衣類', reading: 'いるい', meaning: 'きもののなかま', sentence: '衣類をきれいにたたんだ。'),
+      ExampleWord(word: '上衣', reading: 'うわぎ', meaning: '上に着るもの', sentence: '上衣をぬいでいすにかけた。'),
+    ],
+  ),
+  // 5. 位
+  KanjiChar(
+    character: '位',
+    grade: 4,
+    kunReadings: ['くらい'],
+    onReadings: ['イ'],
+    examples: [
+      ExampleWord(word: '位', reading: 'くらい', meaning: 'じゅんばん、ていど', sentence: '一位になれてうれしい。'),
+      ExampleWord(word: '一位', reading: 'いちい', meaning: 'いちばん上のじゅんばん', sentence: '走る大会で一位になった。'),
+      ExampleWord(word: '地位', reading: 'ちい', meaning: 'その人のたちば', sentence: '高い地位の人がいる。'),
+      ExampleWord(word: '単位', reading: 'たんい', meaning: 'ものをはかるもとになるもの', sentence: '長さの単位はメートルだ。'),
+      ExampleWord(word: '位置', reading: 'いち', meaning: 'あるところ、ばしょ', sentence: '自分の位置を地図でたしかめた。'),
+    ],
+  ),
+  // 6. 囲
+  KanjiChar(
+    character: '囲',
+    grade: 4,
+    kunReadings: ['かこ-む', 'かこ-う'],
+    onReadings: ['イ'],
+    examples: [
+      ExampleWord(word: '囲む', reading: 'かこむ', meaning: 'まわりをとりまくこと', sentence: 'みんなでたき火を囲んだ。'),
+      ExampleWord(word: '囲い', reading: 'かこい', meaning: 'まわりをかこうもの', sentence: '犬のために囲いを作った。'),
+      ExampleWord(word: '周囲', reading: 'しゅうい', meaning: 'まわり', sentence: '学校の周囲に木が多い。'),
+      ExampleWord(word: '範囲', reading: 'はんい', meaning: 'きまったなかのひろさ', sentence: 'テストの範囲を先生に聞いた。'),
+      ExampleWord(word: '囲う', reading: 'かこう', meaning: 'まわりをおおうこと', sentence: 'はたけを囲うさくを立てた。'),
+    ],
+  ),
+  // 7. 胃
+  KanjiChar(
+    character: '胃',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['イ'],
+    examples: [
+      ExampleWord(word: '胃', reading: 'い', meaning: '食べ物をとかすところ', sentence: '食べすぎて胃がいたい。'),
+      ExampleWord(word: '胃ちょう', reading: 'いちょう', meaning: '胃とちょう', sentence: '胃ちょうが弱いので気をつけている。'),
+      ExampleWord(word: '胃ぶくろ', reading: 'いぶくろ', meaning: '胃のこと', sentence: '大きな胃ぶくろの持ち主だ。'),
+      ExampleWord(word: '胃さん', reading: 'いさん', meaning: '胃の中の水', sentence: '胃さんが出すぎるとよくない。'),
+      ExampleWord(word: '胃カメラ', reading: 'いかめら', meaning: '胃の中を見る道具', sentence: '父が胃カメラのけんさを受けた。'),
+    ],
+  ),
+  // 8. 印
+  KanjiChar(
+    character: '印',
+    grade: 4,
+    kunReadings: ['しるし'],
+    onReadings: ['イン'],
+    examples: [
+      ExampleWord(word: '印', reading: 'しるし', meaning: 'めじるし、マーク', sentence: '大切なところに印をつけた。'),
+      ExampleWord(word: '印さつ', reading: 'いんさつ', meaning: '文字をかみにうつすこと', sentence: 'プリントを印さつした。'),
+      ExampleWord(word: '目印', reading: 'めじるし', meaning: 'すぐわかるようにつけるもの', sentence: '大きな木を目印にして歩いた。'),
+      ExampleWord(word: '印かん', reading: 'いんかん', meaning: 'はんこ', sentence: '父は書るいに印かんをおした。'),
+      ExampleWord(word: '印しょう', reading: 'いんしょう', meaning: '心にのこる感じ', sentence: 'この本は印しょうに残った。'),
+    ],
+  ),
+  // 9. 英
+  KanjiChar(
+    character: '英',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['エイ'],
+    examples: [
+      ExampleWord(word: '英語', reading: 'えいご', meaning: 'イギリスやアメリカのことば', sentence: '英語の学習をがんばっている。'),
+      ExampleWord(word: '英国', reading: 'えいこく', meaning: 'イギリス', sentence: '英国はヨーロッパにある。'),
+      ExampleWord(word: '英文', reading: 'えいぶん', meaning: '英語で書いた文', sentence: '英文を読むれんしゅうをした。'),
+      ExampleWord(word: '英和', reading: 'えいわ', meaning: '英語と日本語', sentence: '英和じてんで調べた。'),
+      ExampleWord(word: '英会話', reading: 'えいかいわ', meaning: '英語で話すこと', sentence: '英会話の教室に通っている。'),
+    ],
+  ),
+  // 10. 栄
+  KanjiChar(
+    character: '栄',
+    grade: 4,
+    kunReadings: ['さか-える', 'は-え', 'は-える'],
+    onReadings: ['エイ'],
+    examples: [
+      ExampleWord(word: '栄える', reading: 'さかえる', meaning: 'にぎやかになること', sentence: 'この町は大きく栄えた。'),
+      ExampleWord(word: '栄えい', reading: 'えいえい', meaning: 'いつまでもさかえること', sentence: '国の栄えいをいのった。'),
+      ExampleWord(word: '栄光', reading: 'えいこう', meaning: 'すばらしいほまれ', sentence: '栄光にかがやく一日だった。'),
+      ExampleWord(word: '光栄', reading: 'こうえい', meaning: 'ほまれに思うこと', sentence: 'お会いできて光栄です。'),
+      ExampleWord(word: '栄よう', reading: 'えいよう', meaning: '体を元気にするもと', sentence: '野菜には栄ようがたくさんある。'),
+    ],
+  ),
+  // 11. 塩
+  KanjiChar(
+    character: '塩',
+    grade: 4,
+    kunReadings: ['しお'],
+    onReadings: ['エン'],
+    examples: [
+      ExampleWord(word: '塩', reading: 'しお', meaning: 'しょっぱい白い粉', sentence: '料理に塩を少し入れた。'),
+      ExampleWord(word: '塩水', reading: 'しおみず', meaning: '塩を入れた水', sentence: '塩水でうがいをした。'),
+      ExampleWord(word: '塩分', reading: 'えんぶん', meaning: '塩のぶんりょう', sentence: '塩分のとりすぎに気をつけよう。'),
+      ExampleWord(word: '食塩', reading: 'しょくえん', meaning: '食べるための塩', sentence: '食塩を買いにお店に行った。'),
+      ExampleWord(word: '塩田', reading: 'えんでん', meaning: '塩を作る田', sentence: '海のそばに塩田があった。'),
+    ],
+  ),
+  // 12. 億
+  KanjiChar(
+    character: '億',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['オク'],
+    examples: [
+      ExampleWord(word: '一億', reading: 'いちおく', meaning: '一万万の数', sentence: '日本の人口は一億人以上だ。'),
+      ExampleWord(word: '億', reading: 'おく', meaning: 'とても大きな数', sentence: '星の数は何億もある。'),
+      ExampleWord(word: '何億', reading: 'なんおく', meaning: 'いくつもの億', sentence: '何億もの生き物が地球にいる。'),
+      ExampleWord(word: '数億', reading: 'すうおく', meaning: 'いくつかの億', sentence: '数億年前のかせきを見た。'),
+      ExampleWord(word: '十億', reading: 'じゅうおく', meaning: '億が十こ', sentence: '十億円あったら何を買おう。'),
+    ],
+  ),
+  // 13. 加
+  KanjiChar(
+    character: '加',
+    grade: 4,
+    kunReadings: ['くわ-える', 'くわ-わる'],
+    onReadings: ['カ'],
+    examples: [
+      ExampleWord(word: '加える', reading: 'くわえる', meaning: 'たすこと、ふやすこと', sentence: '水を少し加えてまぜた。'),
+      ExampleWord(word: '加わる', reading: 'くわわる', meaning: 'なかまに入ること', sentence: '新しい友だちがグループに加わった。'),
+      ExampleWord(word: '加工', reading: 'かこう', meaning: '手を加えて作りかえること', sentence: '木を加工していすを作った。'),
+      ExampleWord(word: '追加', reading: 'ついか', meaning: 'あとからたすこと', sentence: '注文を追加した。'),
+      ExampleWord(word: '参加', reading: 'さんか', meaning: 'なかまに入ること', sentence: '大会に参加した。'),
+    ],
+  ),
+  // 14. 果
+  KanjiChar(
+    character: '果',
+    grade: 4,
+    kunReadings: ['は-たす', 'は-てる', 'は-て'],
+    onReadings: ['カ'],
+    examples: [
+      ExampleWord(word: '果物', reading: 'くだもの', meaning: '木になるたべもの', sentence: '果物をたくさん食べた。'),
+      ExampleWord(word: '結果', reading: 'けっか', meaning: 'できあがったこと', sentence: 'テストの結果が出た。'),
+      ExampleWord(word: '果たす', reading: 'はたす', meaning: 'やりとげること', sentence: 'やくそくを果たした。'),
+      ExampleWord(word: '成果', reading: 'せいか', meaning: 'なしとげたこと', sentence: 'れんしゅうの成果が出た。'),
+      ExampleWord(word: '果て', reading: 'はて', meaning: 'いちばんはしのところ', sentence: '空の果てまで見わたした。'),
+    ],
+  ),
+  // 15. 貨
+  KanjiChar(
+    character: '貨',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['カ'],
+    examples: [
+      ExampleWord(word: '貨物', reading: 'かもつ', meaning: 'はこぶにもつ', sentence: '貨物を車に乗せた。'),
+      ExampleWord(word: '百円玉は貨へいだ', reading: 'ひゃくえんだまはかへいだ', meaning: 'お金のこと', sentence: '百円玉は貨へいの一つだ。'),
+      ExampleWord(word: '貨車', reading: 'かしゃ', meaning: 'にもつをはこぶ車', sentence: '長い貨車が走っていた。'),
+      ExampleWord(word: '金貨', reading: 'きんか', meaning: '金で作ったお金', sentence: '金貨を見せてもらった。'),
+      ExampleWord(word: '外貨', reading: 'がいか', meaning: '外国のお金', sentence: '外貨をえんにかえた。'),
+    ],
+  ),
+  // 16. 課
+  KanjiChar(
+    character: '課',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['カ'],
+    examples: [
+      ExampleWord(word: '課題', reading: 'かだい', meaning: 'あたえられた問題', sentence: '夏休みの課題を終わらせた。'),
+      ExampleWord(word: '日課', reading: 'にっか', meaning: '毎日やること', sentence: '朝の読書が日課だ。'),
+      ExampleWord(word: '一課', reading: 'いっか', meaning: 'ひとつめの学びのまとまり', sentence: '国語の一課を読んだ。'),
+      ExampleWord(word: '課長', reading: 'かちょう', meaning: '会社の小さなグループの長', sentence: '父は会社で課長になった。'),
+      ExampleWord(word: '学課', reading: 'がっか', meaning: 'まなぶないよう', sentence: '今日の学課はとてもおもしろかった。'),
+    ],
+  ),
+  // 17. 芽
+  KanjiChar(
+    character: '芽',
+    grade: 4,
+    kunReadings: ['め'],
+    onReadings: ['ガ'],
+    examples: [
+      ExampleWord(word: '芽', reading: 'め', meaning: '草や木のはじめに出る小さな葉', sentence: '春になって芽が出た。'),
+      ExampleWord(word: '芽生える', reading: 'めばえる', meaning: '芽が出はじめること', sentence: '花のたねが芽生えた。'),
+      ExampleWord(word: '新芽', reading: 'しんめ', meaning: '新しく出た芽', sentence: '木に新芽がついている。'),
+      ExampleWord(word: '芽生え', reading: 'めばえ', meaning: '芽が出ること', sentence: '春は芽生えのきせつだ。'),
+      ExampleWord(word: '発芽', reading: 'はつが', meaning: 'たねから芽が出ること', sentence: 'たねをまいたら発芽した。'),
+    ],
+  ),
+  // 18. 改
+  KanjiChar(
+    character: '改',
+    grade: 4,
+    kunReadings: ['あらた-める', 'あらた-まる'],
+    onReadings: ['カイ'],
+    examples: [
+      ExampleWord(word: '改める', reading: 'あらためる', meaning: 'よくなおすこと', sentence: '生活を改めることにした。'),
+      ExampleWord(word: '改まる', reading: 'あらたまる', meaning: 'よくかわること', sentence: '気もちが改まった。'),
+      ExampleWord(word: '改良', reading: 'かいりょう', meaning: 'よくすること', sentence: '道具を改良して使いやすくした。'),
+      ExampleWord(word: '改正', reading: 'かいせい', meaning: 'まちがいをなおすこと', sentence: 'きまりが改正された。'),
+      ExampleWord(word: '改しん', reading: 'かいしん', meaning: 'あたらしくすること', sentence: '古い建物を改しんした。'),
+    ],
+  ),
+  // 19. 械
+  KanjiChar(
+    character: '械',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['カイ'],
+    examples: [
+      ExampleWord(word: '機械', reading: 'きかい', meaning: 'しごとをする道具やしくみ', sentence: '工場には大きな機械がある。'),
+      ExampleWord(word: '機械的', reading: 'きかいてき', meaning: '同じことをくりかえすようす', sentence: '機械的に手を動かした。'),
+      ExampleWord(word: '器械', reading: 'きかい', meaning: 'かんたんなしくみの道具', sentence: '体いくで器械を使った。'),
+      ExampleWord(word: '機械化', reading: 'きかいか', meaning: '機械を使うようにすること', sentence: '農業が機械化された。'),
+      ExampleWord(word: '機械室', reading: 'きかいしつ', meaning: '機械をおく部屋', sentence: '学校の地下に機械室がある。'),
+    ],
+  ),
+  // 20. 害
+  KanjiChar(
+    character: '害',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ガイ'],
+    examples: [
+      ExampleWord(word: '害', reading: 'がい', meaning: 'わるいこと', sentence: '虫が作物に害を出した。'),
+      ExampleWord(word: '害虫', reading: 'がいちゅう', meaning: '作物をだめにする虫', sentence: '害虫をとりのぞいた。'),
+      ExampleWord(word: '公害', reading: 'こうがい', meaning: 'みんながこまるわるいこと', sentence: '工場から公害が出た。'),
+      ExampleWord(word: '水害', reading: 'すいがい', meaning: '水がもたらすわざわい', sentence: '大雨のあと水害が広がった。'),
+      ExampleWord(word: '害する', reading: 'がいする', meaning: 'わるいことをすること', sentence: '体を害する食べ方はよくない。'),
+    ],
+  ),
+  // 21. 街
+  KanjiChar(
+    character: '街',
+    grade: 4,
+    kunReadings: ['まち'],
+    onReadings: ['ガイ', 'カイ'],
+    examples: [
+      ExampleWord(word: '街', reading: 'まち', meaning: 'にぎやかなところ', sentence: '街を歩いて買い物をした。'),
+      ExampleWord(word: '街道', reading: 'かいどう', meaning: '大きな道', sentence: '古い街道を歩いた。'),
+      ExampleWord(word: '商店街', reading: 'しょうてんがい', meaning: 'お店がならぶ通り', sentence: '商店街で夕食の買い物をした。'),
+      ExampleWord(word: '街角', reading: 'まちかど', meaning: '道のかどのところ', sentence: '街角で友だちに会った。'),
+      ExampleWord(word: '市街', reading: 'しがい', meaning: '町のなか', sentence: '市街に大きな建物が多い。'),
+    ],
+  ),
+  // 22. 各
+  KanjiChar(
+    character: '各',
+    grade: 4,
+    kunReadings: ['おのおの'],
+    onReadings: ['カク'],
+    examples: [
+      ExampleWord(word: '各自', reading: 'かくじ', meaning: 'ひとりひとり', sentence: '各自で道具を用意してください。'),
+      ExampleWord(word: '各地', reading: 'かくち', meaning: 'いろいろな場所', sentence: '日本各地にお祭りがある。'),
+      ExampleWord(word: '各国', reading: 'かっこく', meaning: 'それぞれの国', sentence: '世界各国の料理を食べた。'),
+      ExampleWord(word: '各人', reading: 'かくじん', meaning: 'ひとりひとりの人', sentence: '各人の考えを聞いた。'),
+      ExampleWord(word: '各回', reading: 'かくかい', meaning: 'それぞれの回', sentence: '各回のテストをがんばった。'),
+    ],
+  ),
+  // 23. 覚
+  KanjiChar(
+    character: '覚',
+    grade: 4,
+    kunReadings: ['おぼ-える', 'さ-ます', 'さ-める'],
+    onReadings: ['カク'],
+    examples: [
+      ExampleWord(word: '覚える', reading: 'おぼえる', meaning: '心にとどめること', sentence: '新しい漢字を覚えた。'),
+      ExampleWord(word: '覚ます', reading: 'さます', meaning: 'ねむりからおきること', sentence: '目を覚まして朝ごはんを食べた。'),
+      ExampleWord(word: '覚める', reading: 'さめる', meaning: 'ねむりがとけること', sentence: '大きな音で目が覚めた。'),
+      ExampleWord(word: '感覚', reading: 'かんかく', meaning: '体で感じること', sentence: '手の感覚がなくなるほど寒い。'),
+      ExampleWord(word: '自覚', reading: 'じかく', meaning: '自分でわかること', sentence: '四年生の自覚を持とう。'),
+    ],
+  ),
+  // 24. 完
+  KanjiChar(
+    character: '完',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['カン'],
+    examples: [
+      ExampleWord(word: '完全', reading: 'かんぜん', meaning: 'たりないところがないこと', sentence: '完全に正しい答えを出した。'),
+      ExampleWord(word: '完成', reading: 'かんせい', meaning: 'できあがること', sentence: '絵が完成してうれしい。'),
+      ExampleWord(word: '完了', reading: 'かんりょう', meaning: 'すっかり終わること', sentence: 'そうじが完了した。'),
+      ExampleWord(word: '完ぺき', reading: 'かんぺき', meaning: 'まったくたりないところがないこと', sentence: '今日のテストは完ぺきだった。'),
+      ExampleWord(word: '未完成', reading: 'みかんせい', meaning: 'まだできあがっていないこと', sentence: '作品はまだ未完成だ。'),
+    ],
+  ),
+  // 25. 官
+  KanjiChar(
+    character: '官',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['カン'],
+    examples: [
+      ExampleWord(word: '長官', reading: 'ちょうかん', meaning: 'いちばん上の人', sentence: '長官がテレビで話していた。'),
+      ExampleWord(word: '官庁', reading: 'かんちょう', meaning: '国のしごとをするところ', sentence: '大きな官庁の建物を見た。'),
+      ExampleWord(word: '器官', reading: 'きかん', meaning: '体のなかのはたらく部分', sentence: '目は大切な器官だ。'),
+      ExampleWord(word: '官公庁', reading: 'かんこうちょう', meaning: '国やけんのしごとをするところ', sentence: '官公庁は朝早くからはたらいている。'),
+      ExampleWord(word: '外交官', reading: 'がいこうかん', meaning: '外国とのやりとりをする人', sentence: '外交官になりたいと思った。'),
+    ],
+  ),
+  // 26. 管
+  KanjiChar(
+    character: '管',
+    grade: 4,
+    kunReadings: ['くだ'],
+    onReadings: ['カン'],
+    examples: [
+      ExampleWord(word: '管', reading: 'くだ', meaning: 'まるいつつ', sentence: '水が管を通って流れた。'),
+      ExampleWord(word: '管理', reading: 'かんり', meaning: 'ととのえて見ること', sentence: '花だんの管理をしている。'),
+      ExampleWord(word: '水道管', reading: 'すいどうかん', meaning: '水が通るつつ', sentence: '古い水道管を取りかえた。'),
+      ExampleWord(word: '管楽器', reading: 'かんがっき', meaning: 'いきをふいてならす楽器', sentence: '管楽器のえんそうを聞いた。'),
+      ExampleWord(word: '血管', reading: 'けっかん', meaning: '体の中の血が通る管', sentence: '血管は体じゅうにある。'),
+    ],
+  ),
+  // 27. 関
+  KanjiChar(
+    character: '関',
+    grade: 4,
+    kunReadings: ['せき', 'かか-わる'],
+    onReadings: ['カン'],
+    examples: [
+      ExampleWord(word: '関係', reading: 'かんけい', meaning: 'つながりがあること', sentence: '友だちとの関係を大切にしたい。'),
+      ExampleWord(word: '関心', reading: 'かんしん', meaning: 'きょうみをもつこと', sentence: '自然に関心がある。'),
+      ExampleWord(word: '関する', reading: 'かんする', meaning: 'つながりがあること', sentence: '歴史に関する本を読んだ。'),
+      ExampleWord(word: '関所', reading: 'せきしょ', meaning: 'むかしの通り道の番所', sentence: '古い関所を見学した。'),
+      ExampleWord(word: '関東', reading: 'かんとう', meaning: '日本のまん中あたりの地方', sentence: '関東地方に大雨がふった。'),
+    ],
+  ),
+  // 28. 観
+  KanjiChar(
+    character: '観',
+    grade: 4,
+    kunReadings: ['み-る'],
+    onReadings: ['カン'],
+    examples: [
+      ExampleWord(word: '観る', reading: 'みる', meaning: 'よく見ること', sentence: 'えいがを観に行った。'),
+      ExampleWord(word: '観光', reading: 'かんこう', meaning: 'めずらしい場所を見てまわること', sentence: '京都に観光に行った。'),
+      ExampleWord(word: '観客', reading: 'かんきゃく', meaning: '見ている人たち', sentence: '観客がたくさん来ていた。'),
+      ExampleWord(word: '観察', reading: 'かんさつ', meaning: 'よく見てしらべること', sentence: '虫の観察をした。'),
+      ExampleWord(word: '観点', reading: 'かんてん', meaning: '見かた、考えかた', sentence: 'ちがう観点から考えてみよう。'),
+    ],
+  ),
+  // 29. 願
+  KanjiChar(
+    character: '願',
+    grade: 4,
+    kunReadings: ['ねが-う'],
+    onReadings: ['ガン'],
+    examples: [
+      ExampleWord(word: '願う', reading: 'ねがう', meaning: 'こうなってほしいと思うこと', sentence: '平和を願う気もちが大切だ。'),
+      ExampleWord(word: '願い', reading: 'ねがい', meaning: 'のぞみ', sentence: '七夕に願いを書いた。'),
+      ExampleWord(word: '願書', reading: 'がんしょ', meaning: 'おねがいする書るい', sentence: '入学の願書を出した。'),
+      ExampleWord(word: '出願', reading: 'しゅつがん', meaning: '願いを出すこと', sentence: '学校に出願した。'),
+      ExampleWord(word: 'お願い', reading: 'おねがい', meaning: 'たのみごと', sentence: '先生にお願いをした。'),
+    ],
+  ),
+  // 30. 希
+  KanjiChar(
+    character: '希',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '希望', reading: 'きぼう', meaning: 'こうなりたいと思うこと', sentence: '大きな希望を持っている。'),
+      ExampleWord(word: '希望者', reading: 'きぼうしゃ', meaning: 'のぞむ人', sentence: '希望者は手をあげてください。'),
+      ExampleWord(word: '希少', reading: 'きしょう', meaning: 'めったにないこと', sentence: 'この花は希少な花だ。'),
+      ExampleWord(word: '希うす', reading: 'きうす', meaning: 'うすめること', sentence: '水で希うすした。'),
+      ExampleWord(word: '希有', reading: 'けう', meaning: 'めずらしいこと', sentence: 'これは希有なことだ。'),
+    ],
+  ),
+  // 31. 季
+  KanjiChar(
+    character: '季',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '季せつ', reading: 'きせつ', meaning: '春夏秋冬のうつりかわり', sentence: '季せつが変わると花もかわる。'),
+      ExampleWord(word: '四季', reading: 'しき', meaning: '春・夏・秋・冬', sentence: '日本には四季がある。'),
+      ExampleWord(word: '季語', reading: 'きご', meaning: 'はいくで使う季せつのことば', sentence: '春の季語を調べた。'),
+      ExampleWord(word: '雨季', reading: 'うき', meaning: '雨が多いきせつ', sentence: '雨季には毎日雨がふる。'),
+      ExampleWord(word: '冬季', reading: 'とうき', meaning: '冬のきかん', sentence: '冬季には雪が多い。'),
+    ],
+  ),
+  // 32. 紀
+  KanjiChar(
+    character: '紀',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '世紀', reading: 'せいき', meaning: '百年のまとまり', sentence: '二十一世紀に生まれた。'),
+      ExampleWord(word: '紀行', reading: 'きこう', meaning: '旅のきろく', sentence: '紀行文を書いた。'),
+      ExampleWord(word: '紀元', reading: 'きげん', meaning: '年をかぞえるはじまり', sentence: '紀元前のことを学んだ。'),
+      ExampleWord(word: '紀元前', reading: 'きげんぜん', meaning: '紀元のまえ', sentence: '紀元前の人々の生活を調べた。'),
+      ExampleWord(word: '日本書紀', reading: 'にほんしょき', meaning: '古い日本の歴史の本', sentence: '日本書紀について学んだ。'),
+    ],
+  ),
+  // 33. 喜
+  KanjiChar(
+    character: '喜',
+    grade: 4,
+    kunReadings: ['よろこ-ぶ', 'よろこ-ばす'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '喜ぶ', reading: 'よろこぶ', meaning: 'うれしいと思うこと', sentence: 'プレゼントをもらって喜んだ。'),
+      ExampleWord(word: '喜び', reading: 'よろこび', meaning: 'うれしい気もち', sentence: '合かくの喜びでいっぱいだ。'),
+      ExampleWord(word: '大喜び', reading: 'おおよろこび', meaning: 'とてもよろこぶこと', sentence: '一位になって大喜びした。'),
+      ExampleWord(word: '喜ばす', reading: 'よろこばす', meaning: 'うれしくさせること', sentence: 'お母さんを喜ばすために花をあげた。'),
+      ExampleWord(word: '喜楽', reading: 'きらく', meaning: 'よろこびとたのしみ', sentence: '毎日を喜楽に過ごしたい。'),
+    ],
+  ),
+  // 34. 旗
+  KanjiChar(
+    character: '旗',
+    grade: 4,
+    kunReadings: ['はた'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '旗', reading: 'はた', meaning: 'ぬのでできたしるし', sentence: '風で旗がゆれている。'),
+      ExampleWord(word: '国旗', reading: 'こっき', meaning: '国のしるしの旗', sentence: '国旗をかかげた。'),
+      ExampleWord(word: '白旗', reading: 'しろはた', meaning: '白い旗', sentence: '白旗をふってあいずした。'),
+      ExampleWord(word: '旗手', reading: 'きしゅ', meaning: '旗を持つ人', sentence: '入場こうしんの旗手になった。'),
+      ExampleWord(word: '小旗', reading: 'こばた', meaning: '小さな旗', sentence: 'みんなで小旗をふっておうえんした。'),
+    ],
+  ),
+  // 35. 器
+  KanjiChar(
+    character: '器',
+    grade: 4,
+    kunReadings: ['うつわ'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '器', reading: 'うつわ', meaning: 'ものを入れるもの', sentence: '大きな器にスープを入れた。'),
+      ExampleWord(word: '食器', reading: 'しょっき', meaning: '食事に使う器', sentence: '食器をあらった。'),
+      ExampleWord(word: '楽器', reading: 'がっき', meaning: '音楽に使う道具', sentence: '楽器をえんそうした。'),
+      ExampleWord(word: '器用', reading: 'きよう', meaning: '手先がじょうずなこと', sentence: '友だちは手が器用だ。'),
+      ExampleWord(word: '花器', reading: 'かき', meaning: '花を入れる器', sentence: '花器に花をかざった。'),
+    ],
+  ),
+  // 36. 機
+  KanjiChar(
+    character: '機',
+    grade: 4,
+    kunReadings: ['はた'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '機会', reading: 'きかい', meaning: 'よいおり', sentence: 'いい機会だから話を聞こう。'),
+      ExampleWord(word: '飛行機', reading: 'ひこうき', meaning: '空をとぶのりもの', sentence: '飛行機に乗って旅行した。'),
+      ExampleWord(word: '機械', reading: 'きかい', meaning: 'しごとをする道具やしくみ', sentence: '工場に大きな機械がある。'),
+      ExampleWord(word: 'きかい体そう', reading: 'きかいたいそう', meaning: '器具を使うたいそう', sentence: 'きかい体そうのれんしゅうをした。'),
+      ExampleWord(word: '動機', reading: 'どうき', meaning: 'なにかをするきっかけ', sentence: '読書をはじめた動機を話した。'),
+    ],
+  ),
+  // 37. 議
+  KanjiChar(
+    character: '議',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ギ'],
+    examples: [
+      ExampleWord(word: '会議', reading: 'かいぎ', meaning: 'あつまって話し合うこと', sentence: 'クラスで会議をした。'),
+      ExampleWord(word: '議会', reading: 'ぎかい', meaning: 'きまりを決める場', sentence: '議会でルールが決まった。'),
+      ExampleWord(word: '議長', reading: 'ぎちょう', meaning: '会議をまとめる人', sentence: '議長がみんなの意見をまとめた。'),
+      ExampleWord(word: '議員', reading: 'ぎいん', meaning: '議会で話し合う人', sentence: '市の議員がえらばれた。'),
+      ExampleWord(word: '議題', reading: 'ぎだい', meaning: '話し合うないよう', sentence: '今日の議題は遠足のことだ。'),
+    ],
+  ),
+  // 38. 求
+  KanjiChar(
+    character: '求',
+    grade: 4,
+    kunReadings: ['もと-める'],
+    onReadings: ['キュウ'],
+    examples: [
+      ExampleWord(word: '求める', reading: 'もとめる', meaning: 'さがしてほしがること', sentence: '答えを求めて考えた。'),
+      ExampleWord(word: '求人', reading: 'きゅうじん', meaning: '人をさがすこと', sentence: 'お店に求人のはり紙があった。'),
+      ExampleWord(word: '要求', reading: 'ようきゅう', meaning: 'つよくもとめること', sentence: 'みんなの要求を聞いた。'),
+      ExampleWord(word: '追求', reading: 'ついきゅう', meaning: 'おいもとめること', sentence: '答えを追求した。'),
+      ExampleWord(word: '求め', reading: 'もとめ', meaning: 'もとめること', sentence: '友だちの求めにこたえた。'),
+    ],
+  ),
+  // 39. 泣
+  KanjiChar(
+    character: '泣',
+    grade: 4,
+    kunReadings: ['な-く'],
+    onReadings: ['キュウ'],
+    examples: [
+      ExampleWord(word: '泣く', reading: 'なく', meaning: 'なみだを出すこと', sentence: 'かなしくて泣いてしまった。'),
+      ExampleWord(word: '泣き声', reading: 'なきごえ', meaning: '泣くときの声', sentence: '赤ちゃんの泣き声が聞こえた。'),
+      ExampleWord(word: '泣き出す', reading: 'なきだす', meaning: '泣きはじめること', sentence: '友だちが急に泣き出した。'),
+      ExampleWord(word: '泣き虫', reading: 'なきむし', meaning: 'すぐ泣く人', sentence: '小さいころは泣き虫だった。'),
+      ExampleWord(word: 'うれし泣き', reading: 'うれしなき', meaning: 'うれしくて泣くこと', sentence: '合かくしてうれし泣きした。'),
+    ],
+  ),
+  // 40. 給
+  KanjiChar(
+    character: '給',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キュウ'],
+    examples: [
+      ExampleWord(word: '給食', reading: 'きゅうしょく', meaning: '学校で出る食事', sentence: '今日の給食はカレーだ。'),
+      ExampleWord(word: '給水', reading: 'きゅうすい', meaning: '水をあたえること', sentence: '花に給水した。'),
+      ExampleWord(word: '給料', reading: 'きゅうりょう', meaning: 'しごとのお金', sentence: '父が給料をもらった。'),
+      ExampleWord(word: '月給', reading: 'げっきゅう', meaning: 'ひと月分の給料', sentence: '月給で生活をしている。'),
+      ExampleWord(word: '給油', reading: 'きゅうゆ', meaning: '油を入れること', sentence: '車に給油した。'),
+    ],
+  ),
+  // 41. 挙
+  KanjiChar(
+    character: '挙',
+    grade: 4,
+    kunReadings: ['あ-げる', 'あ-がる'],
+    onReadings: ['キョ'],
+    examples: [
+      ExampleWord(word: '挙げる', reading: 'あげる', meaning: '上にあげること', sentence: '手を挙げて発言した。'),
+      ExampleWord(word: '挙がる', reading: 'あがる', meaning: '上にあがること', sentence: 'いい意見が挙がった。'),
+      ExampleWord(word: 'せん挙', reading: 'せんきょ', meaning: 'えらぶこと', sentence: '学級いいんのせん挙をした。'),
+      ExampleWord(word: '挙手', reading: 'きょしゅ', meaning: '手をあげること', sentence: '挙手して先生に答えた。'),
+      ExampleWord(word: '一挙に', reading: 'いっきょに', meaning: 'いちどに', sentence: '一挙に三さつの本を読んだ。'),
+    ],
+  ),
+  // 42. 漁
+  KanjiChar(
+    character: '漁',
+    grade: 4,
+    kunReadings: ['あさ-る'],
+    onReadings: ['ギョ', 'リョウ'],
+    examples: [
+      ExampleWord(word: '漁業', reading: 'ぎょぎょう', meaning: '魚をとるしごと', sentence: 'この町は漁業がさかんだ。'),
+      ExampleWord(word: '漁船', reading: 'ぎょせん', meaning: '魚をとる船', sentence: '漁船が海に出た。'),
+      ExampleWord(word: '漁港', reading: 'ぎょこう', meaning: '漁船のあつまる港', sentence: '漁港に朝早く行った。'),
+      ExampleWord(word: '漁師', reading: 'りょうし', meaning: '魚をとる人', sentence: '漁師のしごとは大変だ。'),
+      ExampleWord(word: '漁村', reading: 'ぎょそん', meaning: '漁業をする村', sentence: '海の近くに漁村がある。'),
+    ],
+  ),
+  // 43. 共
+  KanjiChar(
+    character: '共',
+    grade: 4,
+    kunReadings: ['とも'],
+    onReadings: ['キョウ'],
+    examples: [
+      ExampleWord(word: '共に', reading: 'ともに', meaning: 'いっしょに', sentence: '友だちと共に学んだ。'),
+      ExampleWord(word: '共通', reading: 'きょうつう', meaning: 'おなじこと', sentence: '二人には共通のしゅみがある。'),
+      ExampleWord(word: '共同', reading: 'きょうどう', meaning: 'いっしょにやること', sentence: '共同で作品を作った。'),
+      ExampleWord(word: '公共', reading: 'こうきょう', meaning: 'みんなに関わること', sentence: '公共の場ではしずかにしよう。'),
+      ExampleWord(word: '共有', reading: 'きょうゆう', meaning: 'いっしょに持つこと', sentence: 'この本をみんなで共有した。'),
+    ],
+  ),
+  // 44. 協
+  KanjiChar(
+    character: '協',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キョウ'],
+    examples: [
+      ExampleWord(word: '協力', reading: 'きょうりょく', meaning: '力を合わせること', sentence: 'みんなで協力してそうじした。'),
+      ExampleWord(word: '協会', reading: 'きょうかい', meaning: '同じ目的の人のあつまり', sentence: 'サッカー協会のルールを読んだ。'),
+      ExampleWord(word: '協同', reading: 'きょうどう', meaning: 'いっしょにやること', sentence: '協同で田んぼの作業をした。'),
+      ExampleWord(word: '協調', reading: 'きょうちょう', meaning: '気もちを合わせること', sentence: '友だちと協調して活動した。'),
+      ExampleWord(word: '協定', reading: 'きょうてい', meaning: 'いっしょにきめること', sentence: '二つの町で協定を結んだ。'),
+    ],
+  ),
+  // 45. 鏡
+  KanjiChar(
+    character: '鏡',
+    grade: 4,
+    kunReadings: ['かがみ'],
+    onReadings: ['キョウ'],
+    examples: [
+      ExampleWord(word: '鏡', reading: 'かがみ', meaning: 'すがたをうつすもの', sentence: '鏡の前で服をたしかめた。'),
+      ExampleWord(word: '手鏡', reading: 'てかがみ', meaning: '手に持つ小さなかがみ', sentence: '手鏡で顔を見た。'),
+      ExampleWord(word: 'けんび鏡', reading: 'けんびきょう', meaning: '小さいものを大きく見る道具', sentence: 'けんび鏡で葉っぱを見た。'),
+      ExampleWord(word: '万かきょう', reading: 'まんげきょう', meaning: 'きれいなもようが見える道具', sentence: '万かきょうでもようを楽しんだ。'),
+      ExampleWord(word: '鏡もち', reading: 'かがみもち', meaning: 'お正月にかざるもち', sentence: '鏡もちをかざって新年をむかえた。'),
+    ],
+  ),
+  // 46. 競
+  KanjiChar(
+    character: '競',
+    grade: 4,
+    kunReadings: ['きそ-う', 'せ-る'],
+    onReadings: ['キョウ', 'ケイ'],
+    examples: [
+      ExampleWord(word: '競う', reading: 'きそう', meaning: 'たがいにあらそうこと', sentence: '友だちと走る速さを競った。'),
+      ExampleWord(word: '競走', reading: 'きょうそう', meaning: '走ってあらそうこと', sentence: '運動会で競走に出た。'),
+      ExampleWord(word: '競争', reading: 'きょうそう', meaning: 'たがいにはげむこと', sentence: 'テストの点で競争した。'),
+      ExampleWord(word: '競技', reading: 'きょうぎ', meaning: 'スポーツの試合', sentence: '水えいの競技を見た。'),
+      ExampleWord(word: '競馬', reading: 'けいば', meaning: '馬で走る競走', sentence: '競馬を見に行った。'),
+    ],
+  ),
+  // 47. 極
+  KanjiChar(
+    character: '極',
+    grade: 4,
+    kunReadings: ['きわ-める', 'きわ-まる', 'きわ-み'],
+    onReadings: ['キョク', 'ゴク'],
+    examples: [
+      ExampleWord(word: '極める', reading: 'きわめる', meaning: 'いちばん上までいくこと', sentence: '山のいただきを極めた。'),
+      ExampleWord(word: '北極', reading: 'ほっきょく', meaning: '地球のいちばん北', sentence: '北極はとても寒い。'),
+      ExampleWord(word: '南極', reading: 'なんきょく', meaning: '地球のいちばん南', sentence: '南極にはペンギンがいる。'),
+      ExampleWord(word: '極めて', reading: 'きわめて', meaning: 'とても', sentence: 'この問題は極めてむずかしい。'),
+      ExampleWord(word: '積極的', reading: 'せっきょくてき', meaning: 'すすんでやるようす', sentence: '積極的に手を挙げた。'),
+    ],
+  ),
+  // 48. 訓
+  KanjiChar(
+    character: '訓',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['クン'],
+    examples: [
+      ExampleWord(word: '訓読み', reading: 'くんよみ', meaning: '漢字の日本語の読みかた', sentence: '山の訓読みは「やま」だ。'),
+      ExampleWord(word: '訓れん', reading: 'くんれん', meaning: 'きたえること', sentence: 'ひなんの訓れんをした。'),
+      ExampleWord(word: '教訓', reading: 'きょうくん', meaning: 'おしえ', sentence: 'この話の教訓を考えた。'),
+      ExampleWord(word: '訓話', reading: 'くんわ', meaning: 'おしえの話', sentence: '校長先生の訓話を聞いた。'),
+      ExampleWord(word: '音訓', reading: 'おんくん', meaning: '音読みと訓読み', sentence: '漢字の音訓を調べた。'),
+    ],
+  ),
+  // 49. 軍
+  KanjiChar(
+    character: '軍',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['グン'],
+    examples: [
+      ExampleWord(word: '軍', reading: 'ぐん', meaning: 'たたかう人のあつまり', sentence: '赤い軍と白い軍に分かれた。'),
+      ExampleWord(word: '軍人', reading: 'ぐんじん', meaning: '軍に入っている人', sentence: '軍人の話を聞いた。'),
+      ExampleWord(word: '空軍', reading: 'くうぐん', meaning: '空をまもる軍', sentence: '空軍の飛行機が飛んだ。'),
+      ExampleWord(word: '軍手', reading: 'ぐんて', meaning: '作業に使う手ぶくろ', sentence: '軍手をはめて草むしりをした。'),
+      ExampleWord(word: '赤軍・白軍', reading: 'あかぐん・しろぐん', meaning: '赤と白のチーム', sentence: '運動会は赤軍と白軍に分かれた。'),
+    ],
+  ),
+  // 50. 郡
+  KanjiChar(
+    character: '郡',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['グン'],
+    examples: [
+      ExampleWord(word: '郡', reading: 'ぐん', meaning: '市よりも小さい地いきのまとまり', sentence: 'この村は北郡にある。'),
+      ExampleWord(word: '郡部', reading: 'ぐんぶ', meaning: '市ではないところ', sentence: '郡部は自然が多い。'),
+      ExampleWord(word: '郡内', reading: 'ぐんない', meaning: '郡のなか', sentence: '郡内に新しい公園ができた。'),
+      ExampleWord(word: '郡長', reading: 'ぐんちょう', meaning: 'むかしの郡の長', sentence: '郡長がみんなに話をした。'),
+      ExampleWord(word: '郡山', reading: 'こおりやま', meaning: '地名', sentence: '郡山市は大きな町だ。'),
+    ],
+  ),
+  // 51. 径
+  KanjiChar(
+    character: '径',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ケイ'],
+    examples: [
+      ExampleWord(word: '半径', reading: 'はんけい', meaning: '円のまん中からはしまでの長さ', sentence: '円の半径をはかった。'),
+      ExampleWord(word: '直径', reading: 'ちょっけい', meaning: '円のはしからはしまでの長さ', sentence: 'このボールの直径は二十センチだ。'),
+      ExampleWord(word: '口径', reading: 'こうけい', meaning: '入り口の大きさ', sentence: '管の口径を調べた。'),
+      ExampleWord(word: '径路', reading: 'けいろ', meaning: '通る道すじ', sentence: '学校までの径路を地図に書いた。'),
+      ExampleWord(word: '小径', reading: 'こみち', meaning: '小さな道', sentence: '森の小径を歩いた。'),
+    ],
+  ),
+  // 52. 型
+  KanjiChar(
+    character: '型',
+    grade: 4,
+    kunReadings: ['かた'],
+    onReadings: ['ケイ'],
+    examples: [
+      ExampleWord(word: '型', reading: 'かた', meaning: 'ものの形', sentence: 'ねん土をおしてかたの型をつけた。'),
+      ExampleWord(word: '大型', reading: 'おおがた', meaning: '大きいもの', sentence: '大型の犬がいる。'),
+      ExampleWord(word: '小型', reading: 'こがた', meaning: '小さいもの', sentence: '小型のカメラを買った。'),
+      ExampleWord(word: '血液型', reading: 'けつえきがた', meaning: '血のしゅるい', sentence: '自分の血液型を知っている。'),
+      ExampleWord(word: '新型', reading: 'しんがた', meaning: 'あたらしいかた', sentence: '新型の車はかっこいい。'),
+    ],
+  ),
+  // 53. 景
+  KanjiChar(
+    character: '景',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ケイ'],
+    examples: [
+      ExampleWord(word: '景色', reading: 'けしき', meaning: '目に見えるながめ', sentence: '山の上から見る景色はきれいだ。'),
+      ExampleWord(word: '風景', reading: 'ふうけい', meaning: '自然のながめ', sentence: '美しい風景を絵にかいた。'),
+      ExampleWord(word: '光景', reading: 'こうけい', meaning: '目の前のようす', sentence: 'おどろきの光景を見た。'),
+      ExampleWord(word: '景気', reading: 'けいき', meaning: '世の中のかね回り', sentence: '景気がよくなってきた。'),
+      ExampleWord(word: '夜景', reading: 'やけい', meaning: '夜のながめ', sentence: '山の上から夜景を見た。'),
+    ],
+  ),
+  // 54. 芸
+  KanjiChar(
+    character: '芸',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ゲイ'],
+    examples: [
+      ExampleWord(word: '芸', reading: 'げい', meaning: 'わざ、じょうずなこと', sentence: '犬に芸を教えた。'),
+      ExampleWord(word: '文芸', reading: 'ぶんげい', meaning: '文学やげいじゅつ', sentence: '文芸の本を読んだ。'),
+      ExampleWord(word: '芸人', reading: 'げいにん', meaning: 'わざを見せる人', sentence: '芸人のわらい話が楽しかった。'),
+      ExampleWord(word: '芸名', reading: 'げいめい', meaning: 'わざをする時の名前', sentence: '芸名で活動している人がいる。'),
+      ExampleWord(word: '園芸', reading: 'えんげい', meaning: '花や木を育てること', sentence: '園芸クラブで花を育てた。'),
+    ],
+  ),
+  // 55. 欠
+  KanjiChar(
+    character: '欠',
+    grade: 4,
+    kunReadings: ['か-ける', 'か-く'],
+    onReadings: ['ケツ'],
+    examples: [
+      ExampleWord(word: '欠ける', reading: 'かける', meaning: 'たりなくなること', sentence: 'お皿が欠けてしまった。'),
+      ExampleWord(word: '欠く', reading: 'かく', meaning: 'なくてはこまるものがないこと', sentence: '水を欠くと花がかれる。'),
+      ExampleWord(word: '欠席', reading: 'けっせき', meaning: 'やすむこと', sentence: 'かぜで学校を欠席した。'),
+      ExampleWord(word: '欠点', reading: 'けってん', meaning: 'よくないところ', sentence: 'じぶんの欠点を直したい。'),
+      ExampleWord(word: '欠かせない', reading: 'かかせない', meaning: 'なくてはならない', sentence: '水は生活に欠かせない。'),
+    ],
+  ),
+  // 56. 結
+  KanjiChar(
+    character: '結',
+    grade: 4,
+    kunReadings: ['むす-ぶ', 'ゆ-う', 'ゆ-わえる'],
+    onReadings: ['ケツ'],
+    examples: [
+      ExampleWord(word: '結ぶ', reading: 'むすぶ', meaning: 'つなげること', sentence: 'ひもを結んでくつをはいた。'),
+      ExampleWord(word: '結果', reading: 'けっか', meaning: 'できあがったもの', sentence: 'テストの結果が出た。'),
+      ExampleWord(word: '結局', reading: 'けっきょく', meaning: 'さいごには', sentence: '結局、雨はふらなかった。'),
+      ExampleWord(word: '団結', reading: 'だんけつ', meaning: '力を合わせること', sentence: 'クラスが団結してがんばった。'),
+      ExampleWord(word: '結び目', reading: 'むすびめ', meaning: 'むすんだところ', sentence: 'ひもの結び目がかたい。'),
+    ],
+  ),
+  // 57. 建
+  KanjiChar(
+    character: '建',
+    grade: 4,
+    kunReadings: ['た-てる', 'た-つ'],
+    onReadings: ['ケン', 'コン'],
+    examples: [
+      ExampleWord(word: '建てる', reading: 'たてる', meaning: '作ること', sentence: '新しい家を建てた。'),
+      ExampleWord(word: '建つ', reading: 'たつ', meaning: 'できあがること', sentence: '大きなビルが建った。'),
+      ExampleWord(word: '建物', reading: 'たてもの', meaning: '家やビルなど', sentence: '白い建物が見える。'),
+      ExampleWord(word: '建国', reading: 'けんこく', meaning: '国をつくること', sentence: '建国の歴史を学んだ。'),
+      ExampleWord(word: '建設', reading: 'けんせつ', meaning: '大きなものを作ること', sentence: '学校の建設がはじまった。'),
+    ],
+  ),
+  // 58. 健
+  KanjiChar(
+    character: '健',
+    grade: 4,
+    kunReadings: ['すこ-やか'],
+    onReadings: ['ケン'],
+    examples: [
+      ExampleWord(word: '健やか', reading: 'すこやか', meaning: '元気なようす', sentence: '子どもが健やかに育っている。'),
+      ExampleWord(word: '健康', reading: 'けんこう', meaning: '体が元気なこと', sentence: '健康のためによく歩く。'),
+      ExampleWord(word: '健全', reading: 'けんぜん', meaning: '正しくて元気なこと', sentence: '健全な体を作ろう。'),
+      ExampleWord(word: '健やかに', reading: 'すこやかに', meaning: '元気に', sentence: '赤ちゃんが健やかに大きくなった。'),
+      ExampleWord(word: '保健', reading: 'ほけん', meaning: '体を守ること', sentence: '保健の先生に相談した。'),
+    ],
+  ),
+  // 59. 験
+  KanjiChar(
+    character: '験',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ケン', 'ゲン'],
+    examples: [
+      ExampleWord(word: '実験', reading: 'じっけん', meaning: 'ためしてみること', sentence: '理科で実験をした。'),
+      ExampleWord(word: '試験', reading: 'しけん', meaning: 'テスト', sentence: '明日は試験がある。'),
+      ExampleWord(word: '経験', reading: 'けいけん', meaning: 'じっさいにやったこと', sentence: 'いろいろな経験をしたい。'),
+      ExampleWord(word: '体験', reading: 'たいけん', meaning: 'じぶんの体でためすこと', sentence: '田植えの体験をした。'),
+      ExampleWord(word: '受験', reading: 'じゅけん', meaning: '試験を受けること', sentence: '受験にむけてべんきょうする。'),
+    ],
+  ),
+  // 60. 固
+  KanjiChar(
+    character: '固',
+    grade: 4,
+    kunReadings: ['かた-い', 'かた-める', 'かた-まる'],
+    onReadings: ['コ'],
+    examples: [
+      ExampleWord(word: '固い', reading: 'かたい', meaning: 'かたいこと', sentence: 'この石はとても固い。'),
+      ExampleWord(word: '固める', reading: 'かためる', meaning: 'かたくすること', sentence: 'ねん土を固めて形を作った。'),
+      ExampleWord(word: '固まる', reading: 'かたまる', meaning: 'かたくなること', sentence: 'のりが固まった。'),
+      ExampleWord(word: '固体', reading: 'こたい', meaning: 'かたいもの', sentence: '氷は水の固体だ。'),
+      ExampleWord(word: '固定', reading: 'こてい', meaning: 'うごかないようにすること', sentence: 'テープで紙を固定した。'),
+    ],
+  ),
+  // 61. 功
+  KanjiChar(
+    character: '功',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '功', reading: 'こう', meaning: 'よいはたらき', sentence: '大きな功をたてた人がいる。'),
+      ExampleWord(word: '成功', reading: 'せいこう', meaning: 'うまくいくこと', sentence: '実験が成功した。'),
+      ExampleWord(word: '功せき', reading: 'こうせき', meaning: 'よいはたらきのあと', sentence: '大きな功せきを残した。'),
+      ExampleWord(word: '年功', reading: 'ねんこう', meaning: '長くつとめたこと', sentence: '年功をたたえられた。'),
+      ExampleWord(word: '大成功', reading: 'だいせいこう', meaning: 'とてもうまくいくこと', sentence: 'えんげきが大成功した。'),
+    ],
+  ),
+  // 62. 好
+  KanjiChar(
+    character: '好',
+    grade: 4,
+    kunReadings: ['す-く', 'この-む', 'この-み'],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '好き', reading: 'すき', meaning: 'このむこと', sentence: '読書が好きだ。'),
+      ExampleWord(word: '好む', reading: 'このむ', meaning: 'よいと思うこと', sentence: '兄は魚より肉を好む。'),
+      ExampleWord(word: '友好', reading: 'ゆうこう', meaning: 'なかよくすること', sentence: '二つの国が友好を深めた。'),
+      ExampleWord(word: '好物', reading: 'こうぶつ', meaning: '大好きな食べ物', sentence: 'ぼくの好物はカレーだ。'),
+      ExampleWord(word: '好み', reading: 'このみ', meaning: 'すきなこと', sentence: '好みの色は青だ。'),
+    ],
+  ),
+  // 63. 候
+  KanjiChar(
+    character: '候',
+    grade: 4,
+    kunReadings: ['そうろう'],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '天候', reading: 'てんこう', meaning: '天気のようす', sentence: '天候がよくなってきた。'),
+      ExampleWord(word: '気候', reading: 'きこう', meaning: 'その土地の天気のようす', sentence: 'この地方は気候がおだやかだ。'),
+      ExampleWord(word: '候ほ', reading: 'こうほ', meaning: 'えらばれるかもしれない人', sentence: '三人の候ほの中からえらぶ。'),
+      ExampleWord(word: '測候所', reading: 'そっこうじょ', meaning: '天気をしらべる場所', sentence: '測候所が天気をしらべている。'),
+      ExampleWord(word: '候鳥', reading: 'こうちょう', meaning: 'きせつでうつりかわる鳥', sentence: '候鳥が南からわたってきた。'),
+    ],
+  ),
+  // 64. 航
+  KanjiChar(
+    character: '航',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '航海', reading: 'こうかい', meaning: '船で海をわたること', sentence: '大きな船で航海した。'),
+      ExampleWord(word: '航空', reading: 'こうくう', meaning: '飛行機で空をとぶこと', sentence: '航空会社のひこうきに乗った。'),
+      ExampleWord(word: '運航', reading: 'うんこう', meaning: '船や飛行機がうごくこと', sentence: 'フェリーが毎日運航している。'),
+      ExampleWord(word: '航路', reading: 'こうろ', meaning: '船のとおる道', sentence: '航路にそって船が進んだ。'),
+      ExampleWord(word: '就航', reading: 'しゅうこう', meaning: '運航をはじめること', sentence: '新しい船が就航した。'),
+    ],
+  ),
+  // 65. 康
+  KanjiChar(
+    character: '康',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '健康', reading: 'けんこう', meaning: '体が元気なこと', sentence: '健康のためにうんどうする。'),
+      ExampleWord(word: '健康的', reading: 'けんこうてき', meaning: '体によいようす', sentence: '健康的な食事を心がけている。'),
+      ExampleWord(word: '不健康', reading: 'ふけんこう', meaning: '体がよくないこと', sentence: '夜おそくまでおきるのは不健康だ。'),
+      ExampleWord(word: '小康', reading: 'しょうこう', meaning: 'すこしおちつくこと', sentence: '雨が小康じょうたいになった。'),
+      ExampleWord(word: '康らか', reading: 'やすらか', meaning: 'おだやかなこと', sentence: '心が康らかになった。'),
+    ],
+  ),
+  // 66. 告
+  KanjiChar(
+    character: '告',
+    grade: 4,
+    kunReadings: ['つ-げる'],
+    onReadings: ['コク'],
+    examples: [
+      ExampleWord(word: '告げる', reading: 'つげる', meaning: 'しらせること', sentence: '別れを告げて旅に出た。'),
+      ExampleWord(word: '広告', reading: 'こうこく', meaning: 'おしらせ', sentence: '新聞に広告がのっていた。'),
+      ExampleWord(word: '報告', reading: 'ほうこく', meaning: 'しらせること', sentence: '先生に結果を報告した。'),
+      ExampleWord(word: '予告', reading: 'よこく', meaning: 'まえもってしらせること', sentence: 'えいがの予告を見た。'),
+      ExampleWord(word: '告白', reading: 'こくはく', meaning: 'ほんとうのことを言うこと', sentence: 'しっぱいを正直に告白した。'),
+    ],
+  ),
+  // 67. 差
+  KanjiChar(
+    character: '差',
+    grade: 4,
+    kunReadings: ['さ-す'],
+    onReadings: ['サ'],
+    examples: [
+      ExampleWord(word: '差', reading: 'さ', meaning: 'ちがい', sentence: '二つの数の差を出した。'),
+      ExampleWord(word: '差す', reading: 'さす', meaning: '光がはいること', sentence: '朝日が部屋に差した。'),
+      ExampleWord(word: '差別', reading: 'さべつ', meaning: 'かたよった分けかた', sentence: '差別をなくすことが大切だ。'),
+      ExampleWord(word: '時差', reading: 'じさ', meaning: '時間のちがい', sentence: 'アメリカとの時差は大きい。'),
+      ExampleWord(word: '差し出す', reading: 'さしだす', meaning: '前に出すこと', sentence: '手紙を差し出した。'),
+    ],
+  ),
+  // 68. 菜
+  KanjiChar(
+    character: '菜',
+    grade: 4,
+    kunReadings: ['な'],
+    onReadings: ['サイ'],
+    examples: [
+      ExampleWord(word: '野菜', reading: 'やさい', meaning: 'はたけでとれる食べ物', sentence: '毎日野菜を食べている。'),
+      ExampleWord(word: '菜の花', reading: 'なのはな', meaning: '黄色い春の花', sentence: '菜の花がきれいにさいた。'),
+      ExampleWord(word: '山菜', reading: 'さんさい', meaning: '山でとれる食べ物', sentence: '山菜をとりに行った。'),
+      ExampleWord(word: '白菜', reading: 'はくさい', meaning: '冬の野菜', sentence: '白菜を使ってなべを作った。'),
+      ExampleWord(word: '青菜', reading: 'あおな', meaning: 'みどり色の葉っぱの野菜', sentence: '青菜をゆでて食べた。'),
+    ],
+  ),
+  // 69. 最
+  KanjiChar(
+    character: '最',
+    grade: 4,
+    kunReadings: ['もっと-も'],
+    onReadings: ['サイ'],
+    examples: [
+      ExampleWord(word: '最も', reading: 'もっとも', meaning: 'いちばん', sentence: '今日は最も暑い日だった。'),
+      ExampleWord(word: '最大', reading: 'さいだい', meaning: 'いちばん大きい', sentence: 'これがこの川の最大の魚だ。'),
+      ExampleWord(word: '最後', reading: 'さいご', meaning: 'いちばんおわり', sentence: '最後まであきらめない。'),
+      ExampleWord(word: '最初', reading: 'さいしょ', meaning: 'いちばんはじめ', sentence: '最初に名前を書いてください。'),
+      ExampleWord(word: '最近', reading: 'さいきん', meaning: 'ちかごろ', sentence: '最近は雨が多い。'),
+    ],
+  ),
+  // 70. 材
+  KanjiChar(
+    character: '材',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ザイ'],
+    examples: [
+      ExampleWord(word: '材木', reading: 'ざいもく', meaning: '建てるための木', sentence: '材木を使って小屋を作った。'),
+      ExampleWord(word: '材料', reading: 'ざいりょう', meaning: 'ものを作るもと', sentence: '料理の材料を買った。'),
+      ExampleWord(word: '教材', reading: 'きょうざい', meaning: 'べんきょうに使うもの', sentence: '新しい教材をもらった。'),
+      ExampleWord(word: '人材', reading: 'じんざい', meaning: 'やくに立つ人', sentence: 'この会社には人材が多い。'),
+      ExampleWord(word: '木材', reading: 'もくざい', meaning: '使うための木', sentence: '木材を切って板にした。'),
+    ],
+  ),
+  // 71. 昨
+  KanjiChar(
+    character: '昨',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['サク'],
+    examples: [
+      ExampleWord(word: '昨日', reading: 'きのう', meaning: 'きのう', sentence: '昨日は天気がよかった。'),
+      ExampleWord(word: '昨年', reading: 'さくねん', meaning: '去年', sentence: '昨年の夏は暑かった。'),
+      ExampleWord(word: '昨夜', reading: 'さくや', meaning: 'きのうの夜', sentence: '昨夜は星がきれいだった。'),
+      ExampleWord(word: '昨今', reading: 'さっこん', meaning: 'ちかごろ', sentence: '昨今は気温が高い。'),
+      ExampleWord(word: '一昨日', reading: 'おととい', meaning: 'きのうの前の日', sentence: '一昨日から雨がふっている。'),
+    ],
+  ),
+  // 72. 札
+  KanjiChar(
+    character: '札',
+    grade: 4,
+    kunReadings: ['ふだ'],
+    onReadings: ['サツ'],
+    examples: [
+      ExampleWord(word: '札', reading: 'ふだ', meaning: 'かみやいたのしるし', sentence: '名前の札をつけた。'),
+      ExampleWord(word: 'お札', reading: 'おさつ', meaning: 'かみのお金', sentence: 'お札でおつりをもらった。'),
+      ExampleWord(word: '名札', reading: 'なふだ', meaning: '名前を書いたふだ', sentence: '名札をむねにつけた。'),
+      ExampleWord(word: '千円札', reading: 'せんえんさつ', meaning: '千円のかみのお金', sentence: '千円札を出しておつりをもらった。'),
+      ExampleWord(word: '切り札', reading: 'きりふだ', meaning: 'ここぞというときのもの', sentence: 'これが最後の切り札だ。'),
+    ],
+  ),
+  // 73. 刷
+  KanjiChar(
+    character: '刷',
+    grade: 4,
+    kunReadings: ['す-る'],
+    onReadings: ['サツ'],
+    examples: [
+      ExampleWord(word: '刷る', reading: 'する', meaning: 'かみにうつすこと', sentence: 'はん画を刷った。'),
+      ExampleWord(word: '印刷', reading: 'いんさつ', meaning: '文字をかみにうつすこと', sentence: 'プリントを印刷した。'),
+      ExampleWord(word: '印刷物', reading: 'いんさつぶつ', meaning: '印刷したもの', sentence: '印刷物を配った。'),
+      ExampleWord(word: '刷り上がり', reading: 'すりあがり', meaning: '刷り終わったもの', sentence: '刷り上がりがきれいだった。'),
+      ExampleWord(word: '増刷', reading: 'ぞうさつ', meaning: 'もっと刷ること', sentence: '人気の本が増刷された。'),
+    ],
+  ),
+  // 74. 殺
+  KanjiChar(
+    character: '殺',
+    grade: 4,
+    kunReadings: ['ころ-す'],
+    onReadings: ['サツ', 'サイ', 'セツ'],
+    examples: [
+      ExampleWord(word: '殺す', reading: 'ころす', meaning: 'いのちをうばうこと', sentence: '虫を殺さないようにした。'),
+      ExampleWord(word: '殺虫ざい', reading: 'さっちゅうざい', meaning: '虫をたいじする薬', sentence: '殺虫ざいを使った。'),
+      ExampleWord(word: '殺風景', reading: 'さっぷうけい', meaning: 'おもしろみがないようす', sentence: '何もない殺風景な部屋だ。'),
+      ExampleWord(word: '消毒殺きん', reading: 'しょうどくさっきん', meaning: 'ばいきんをなくすこと', sentence: '手を消毒殺きんした。'),
+      ExampleWord(word: '相殺', reading: 'そうさい', meaning: 'おたがいに打ち消すこと', sentence: 'よいところと悪いところが相殺された。'),
+    ],
+  ),
+  // 75. 察
+  KanjiChar(
+    character: '察',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['サツ'],
+    examples: [
+      ExampleWord(word: '観察', reading: 'かんさつ', meaning: 'よく見てしらべること', sentence: '花の観察をした。'),
+      ExampleWord(word: '警察', reading: 'けいさつ', meaning: '町を守る人たち', sentence: '警察の人に道を聞いた。'),
+      ExampleWord(word: '察する', reading: 'さっする', meaning: 'おしはかること', sentence: '友だちの気もちを察した。'),
+      ExampleWord(word: '察知', reading: 'さっち', meaning: 'さとること', sentence: 'あぶないことを察知した。'),
+      ExampleWord(word: '視察', reading: 'しさつ', meaning: 'じっさいに見てまわること', sentence: '工場の視察に行った。'),
+    ],
+  ),
+  // 76. 参
+  KanjiChar(
+    character: '参',
+    grade: 4,
+    kunReadings: ['まい-る'],
+    onReadings: ['サン'],
+    examples: [
+      ExampleWord(word: '参る', reading: 'まいる', meaning: 'いくこと（ていねい）', sentence: 'お寺に参った。'),
+      ExampleWord(word: '参加', reading: 'さんか', meaning: 'なかまに入ること', sentence: '大会に参加した。'),
+      ExampleWord(word: '参考', reading: 'さんこう', meaning: 'やくに立つ手がかり', sentence: 'この本を参考にした。'),
+      ExampleWord(word: '参観', reading: 'さんかん', meaning: '見にいくこと', sentence: '父が学校を参観した。'),
+      ExampleWord(word: '参道', reading: 'さんどう', meaning: 'お寺や神社に行く道', sentence: '参道をゆっくり歩いた。'),
+    ],
+  ),
+  // 77. 産
+  KanjiChar(
+    character: '産',
+    grade: 4,
+    kunReadings: ['う-む', 'う-まれる', 'うぶ'],
+    onReadings: ['サン'],
+    examples: [
+      ExampleWord(word: '産む', reading: 'うむ', meaning: '子どもを生むこと', sentence: 'ねこが子どもを産んだ。'),
+      ExampleWord(word: '産地', reading: 'さんち', meaning: 'ものがとれる場所', sentence: 'みかんの産地を調べた。'),
+      ExampleWord(word: '産業', reading: 'さんぎょう', meaning: 'ものを作るしごと', sentence: 'この町は農業が大きな産業だ。'),
+      ExampleWord(word: '名産', reading: 'めいさん', meaning: 'その土地のゆうめいなもの', sentence: 'この町の名産はお米だ。'),
+      ExampleWord(word: '水産', reading: 'すいさん', meaning: '海や川でとれるもの', sentence: '水産物を売る市場に行った。'),
+    ],
+  ),
+  // 78. 散
+  KanjiChar(
+    character: '散',
+    grade: 4,
+    kunReadings: ['ち-る', 'ち-らす', 'ち-らかす', 'ち-らかる'],
+    onReadings: ['サン'],
+    examples: [
+      ExampleWord(word: '散る', reading: 'ちる', meaning: 'ばらばらになること', sentence: '桜の花が散った。'),
+      ExampleWord(word: '散らす', reading: 'ちらす', meaning: 'ばらばらにすること', sentence: '風が葉を散らした。'),
+      ExampleWord(word: '散歩', reading: 'さんぽ', meaning: 'ぶらぶらと歩くこと', sentence: '犬と散歩に出かけた。'),
+      ExampleWord(word: '散らかす', reading: 'ちらかす', meaning: 'ちらかすこと', sentence: '部屋を散らかしてしまった。'),
+      ExampleWord(word: '解散', reading: 'かいさん', meaning: 'あつまりをとくこと', sentence: '会は五時に解散した。'),
+    ],
+  ),
+  // 79. 残
+  KanjiChar(
+    character: '残',
+    grade: 4,
+    kunReadings: ['のこ-る', 'のこ-す'],
+    onReadings: ['ザン'],
+    examples: [
+      ExampleWord(word: '残る', reading: 'のこる', meaning: 'あとにとどまること', sentence: '雪が道に残っている。'),
+      ExampleWord(word: '残す', reading: 'のこす', meaning: 'あとにとどめること', sentence: '食べ物を残さないようにした。'),
+      ExampleWord(word: '残り', reading: 'のこり', meaning: 'あとにのこったもの', sentence: '残りの時間であそんだ。'),
+      ExampleWord(word: '残念', reading: 'ざんねん', meaning: 'おしいこと', sentence: '負けて残念だった。'),
+      ExampleWord(word: '残業', reading: 'ざんぎょう', meaning: '時間のあとも働くこと', sentence: '父は残業で遅くなった。'),
+    ],
+  ),
+  // 80. 士
+  KanjiChar(
+    character: '士',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '力士', reading: 'りきし', meaning: 'すもうをとる人', sentence: '力士がどひょうに上がった。'),
+      ExampleWord(word: '武士', reading: 'ぶし', meaning: 'むかしのたたかう人', sentence: '武士の話を本で読んだ。'),
+      ExampleWord(word: '博士', reading: 'はかせ', meaning: 'がくもんのすぐれた人', sentence: '博士がおもしろい話をしてくれた。'),
+      ExampleWord(word: '紳士', reading: 'しんし', meaning: 'りっぱな男の人', sentence: '紳士のようにふるまおう。'),
+      ExampleWord(word: '富士山', reading: 'ふじさん', meaning: '日本一高い山', sentence: '富士山を見に行った。'),
+    ],
+  ),
+  // 81. 氏
+  KanjiChar(
+    character: '氏',
+    grade: 4,
+    kunReadings: ['うじ'],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '氏名', reading: 'しめい', meaning: '名字と名前', sentence: '氏名を書いてください。'),
+      ExampleWord(word: '氏', reading: 'し', meaning: 'その人をさすことば', sentence: '田中氏がおいでになった。'),
+      ExampleWord(word: '氏族', reading: 'しぞく', meaning: '同じ名字のなかま', sentence: 'むかしの氏族について学んだ。'),
+      ExampleWord(word: '何氏', reading: 'なにし', meaning: 'だれさま', sentence: '何氏のことか分からなかった。'),
+      ExampleWord(word: '両氏', reading: 'りょうし', meaning: '二人の人', sentence: '両氏の話を聞いた。'),
+    ],
+  ),
+  // 82. 史
+  KanjiChar(
+    character: '史',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '歴史', reading: 'れきし', meaning: 'むかしのできごと', sentence: '日本の歴史を学んだ。'),
+      ExampleWord(word: '史学', reading: 'しがく', meaning: '歴史をまなぶ学問', sentence: '史学に関心がある。'),
+      ExampleWord(word: '歴史的', reading: 'れきしてき', meaning: 'むかしから大切なようす', sentence: '歴史的な建物を見た。'),
+      ExampleWord(word: '日本史', reading: 'にほんし', meaning: '日本の歴史', sentence: '日本史の本を読んだ。'),
+      ExampleWord(word: '史上', reading: 'しじょう', meaning: '歴史の中で', sentence: '史上はじめてのきろくだ。'),
+    ],
+  ),
+  // 83. 司
+  KanjiChar(
+    character: '司',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '司会', reading: 'しかい', meaning: '会をすすめる人', sentence: '発表会の司会をした。'),
+      ExampleWord(word: '司書', reading: 'ししょ', meaning: '図書館ではたらく人', sentence: '司書の先生に本をすすめてもらった。'),
+      ExampleWord(word: '司令', reading: 'しれい', meaning: 'めいれいする人', sentence: '司令が指示を出した。'),
+      ExampleWord(word: '上司', reading: 'じょうし', meaning: '自分より上のたちばの人', sentence: '父の上司があいさつに来た。'),
+      ExampleWord(word: '司会者', reading: 'しかいしゃ', meaning: '会をすすめるやくの人', sentence: '司会者が名前をよんだ。'),
+    ],
+  ),
+  // 84. 試
+  KanjiChar(
+    character: '試',
+    grade: 4,
+    kunReadings: ['こころ-みる', 'ため-す'],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '試す', reading: 'ためす', meaning: 'やってみること', sentence: '新しいやり方を試した。'),
+      ExampleWord(word: '試みる', reading: 'こころみる', meaning: 'ためしにやること', sentence: 'むずかしい問題に試みた。'),
+      ExampleWord(word: '試合', reading: 'しあい', meaning: 'スポーツのたたかい', sentence: 'サッカーの試合を見た。'),
+      ExampleWord(word: '試験', reading: 'しけん', meaning: 'テスト', sentence: '明日は算数の試験がある。'),
+      ExampleWord(word: '試食', reading: 'ししょく', meaning: 'ためしに食べること', sentence: 'お店で試食をした。'),
+    ],
+  ),
+  // 85. 児
+  KanjiChar(
+    character: '児',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ジ', 'ニ'],
+    examples: [
+      ExampleWord(word: '児童', reading: 'じどう', meaning: '子ども', sentence: '児童が校庭であそんでいる。'),
+      ExampleWord(word: '小児', reading: 'しょうに', meaning: '小さい子ども', sentence: '小児科でしんさつを受けた。'),
+      ExampleWord(word: '幼児', reading: 'ようじ', meaning: 'おさない子ども', sentence: '幼児がお母さんと歩いている。'),
+      ExampleWord(word: '児童会', reading: 'じどうかい', meaning: '学校の子どものあつまり', sentence: '児童会で話し合いをした。'),
+      ExampleWord(word: '育児', reading: 'いくじ', meaning: '子どもを育てること', sentence: '母は育児にいそがしい。'),
+    ],
+  ),
+  // 86. 治
+  KanjiChar(
+    character: '治',
+    grade: 4,
+    kunReadings: ['おさ-める', 'おさ-まる', 'なお-る', 'なお-す'],
+    onReadings: ['ジ', 'チ'],
+    examples: [
+      ExampleWord(word: '治る', reading: 'なおる', meaning: 'よくなること', sentence: 'かぜが治ってうれしい。'),
+      ExampleWord(word: '治す', reading: 'なおす', meaning: 'よくすること', sentence: '医者がびょうきを治した。'),
+      ExampleWord(word: '治める', reading: 'おさめる', meaning: 'まとめること', sentence: '国を治める人がいた。'),
+      ExampleWord(word: '政治', reading: 'せいじ', meaning: '国のまつりごと', sentence: '政治のしくみを学んだ。'),
+      ExampleWord(word: '自治', reading: 'じち', meaning: '自分たちでおさめること', sentence: 'クラスの自治活動をした。'),
+    ],
+  ),
+  // 87. 辞
+  KanjiChar(
+    character: '辞',
+    grade: 4,
+    kunReadings: ['や-める'],
+    onReadings: ['ジ'],
+    examples: [
+      ExampleWord(word: '辞める', reading: 'やめる', meaning: 'やくめをおりること', sentence: '委員を辞めることにした。'),
+      ExampleWord(word: '辞書', reading: 'じしょ', meaning: 'ことばを調べる本', sentence: '辞書で漢字を調べた。'),
+      ExampleWord(word: '辞典', reading: 'じてん', meaning: 'ことばをまとめた本', sentence: '国語辞典を使った。'),
+      ExampleWord(word: 'お辞ぎ', reading: 'おじぎ', meaning: 'あたまを下げること', sentence: '先生にお辞ぎをした。'),
+      ExampleWord(word: '辞退', reading: 'じたい', meaning: 'ことわること', sentence: 'えんりょして辞退した。'),
+    ],
+  ),
+  // 88. 失
+  KanjiChar(
+    character: '失',
+    grade: 4,
+    kunReadings: ['うしな-う'],
+    onReadings: ['シツ'],
+    examples: [
+      ExampleWord(word: '失う', reading: 'うしなう', meaning: 'なくすこと', sentence: '大切なものを失った。'),
+      ExampleWord(word: '失敗', reading: 'しっぱい', meaning: 'うまくいかないこと', sentence: '実験に失敗した。'),
+      ExampleWord(word: '失礼', reading: 'しつれい', meaning: 'れいぎがないこと', sentence: '失礼しますと言って教室に入った。'),
+      ExampleWord(word: '消失', reading: 'しょうしつ', meaning: 'きえてなくなること', sentence: '雪が消失した。'),
+      ExampleWord(word: '失点', reading: 'しってん', meaning: 'てんを取られること', sentence: '試合で失点してしまった。'),
+    ],
+  ),
+  // 89. 借
+  KanjiChar(
+    character: '借',
+    grade: 4,
+    kunReadings: ['か-りる'],
+    onReadings: ['シャク'],
+    examples: [
+      ExampleWord(word: '借りる', reading: 'かりる', meaning: 'かえすやくそくでもらうこと', sentence: '図書館で本を借りた。'),
+      ExampleWord(word: '借り物', reading: 'かりもの', meaning: '借りたもの', sentence: '借り物は大切にあつかおう。'),
+      ExampleWord(word: '借家', reading: 'しゃくや', meaning: '借りている家', sentence: '借家に住んでいる。'),
+      ExampleWord(word: '貸し借り', reading: 'かしかり', meaning: 'かすことと借りること', sentence: '友だちとの貸し借りに気をつけよう。'),
+      ExampleWord(word: '借用', reading: 'しゃくよう', meaning: '借りて使うこと', sentence: '教室を借用した。'),
+    ],
+  ),
+  // 90. 種
+  KanjiChar(
+    character: '種',
+    grade: 4,
+    kunReadings: ['たね'],
+    onReadings: ['シュ'],
+    examples: [
+      ExampleWord(word: '種', reading: 'たね', meaning: '草や木のもとになるもの', sentence: 'ひまわりの種をまいた。'),
+      ExampleWord(word: '種類', reading: 'しゅるい', meaning: 'わけたなかま', sentence: 'いろいろな種類の花がある。'),
+      ExampleWord(word: '種目', reading: 'しゅもく', meaning: 'わけたなかまのこと', sentence: '運動会の種目がきまった。'),
+      ExampleWord(word: '人種', reading: 'じんしゅ', meaning: '人のなかまわけ', sentence: 'いろいろな人種の人がいる。'),
+      ExampleWord(word: '一種', reading: 'いっしゅ', meaning: 'ひとつの種類', sentence: 'これは一種のあそびだ。'),
+    ],
+  ),
+  // 91. 周
+  KanjiChar(
+    character: '周',
+    grade: 4,
+    kunReadings: ['まわ-り'],
+    onReadings: ['シュウ'],
+    examples: [
+      ExampleWord(word: '周り', reading: 'まわり', meaning: 'ぐるりのところ', sentence: '学校の周りに花がさいた。'),
+      ExampleWord(word: '周囲', reading: 'しゅうい', meaning: 'まわり', sentence: '校庭の周囲を走った。'),
+      ExampleWord(word: '一周', reading: 'いっしゅう', meaning: 'ぐるっとまわること', sentence: '校庭を一周した。'),
+      ExampleWord(word: '周知', reading: 'しゅうち', meaning: 'みんなが知ること', sentence: '大切なことを周知した。'),
+      ExampleWord(word: '円周', reading: 'えんしゅう', meaning: '円のまわりの長さ', sentence: '円周を計算した。'),
+    ],
+  ),
+  // 92. 祝
+  KanjiChar(
+    character: '祝',
+    grade: 4,
+    kunReadings: ['いわ-う'],
+    onReadings: ['シュク'],
+    examples: [
+      ExampleWord(word: '祝う', reading: 'いわう', meaning: 'めでたいことをよろこぶ', sentence: 'たんじょう日を祝った。'),
+      ExampleWord(word: '祝い', reading: 'いわい', meaning: 'めでたいこと', sentence: '入学のお祝いをもらった。'),
+      ExampleWord(word: '祝日', reading: 'しゅくじつ', meaning: 'お祝いの休みの日', sentence: '明日は祝日で学校が休みだ。'),
+      ExampleWord(word: 'お祝い', reading: 'おいわい', meaning: 'いわうこと', sentence: 'お祝いに花をおくった。'),
+      ExampleWord(word: '祝電', reading: 'しゅくでん', meaning: 'お祝いの電話やてがみ', sentence: '祝電がとどいた。'),
+    ],
+  ),
+  // 93. 順
+  KanjiChar(
+    character: '順',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ジュン'],
+    examples: [
+      ExampleWord(word: '順番', reading: 'じゅんばん', meaning: 'ならんだじゅん', sentence: '順番をまもってならんだ。'),
+      ExampleWord(word: '順序', reading: 'じゅんじょ', meaning: 'きまったならび方', sentence: '順序よくかたづけた。'),
+      ExampleWord(word: '順調', reading: 'じゅんちょう', meaning: 'うまくいっているようす', sentence: '計画は順調に進んでいる。'),
+      ExampleWord(word: '順位', reading: 'じゅんい', meaning: 'ならんだ位', sentence: '走った順位が出た。'),
+      ExampleWord(word: '順々に', reading: 'じゅんじゅんに', meaning: 'ひとつずつ', sentence: '順々に発表した。'),
+    ],
+  ),
+  // 94. 初
+  KanjiChar(
+    character: '初',
+    grade: 4,
+    kunReadings: ['はじ-め', 'はじ-めて', 'はつ', 'うい', 'そ-める'],
+    onReadings: ['ショ'],
+    examples: [
+      ExampleWord(word: '初め', reading: 'はじめ', meaning: 'さいしょ', sentence: '話の初めをよく聞こう。'),
+      ExampleWord(word: '初めて', reading: 'はじめて', meaning: 'はじめてのこと', sentence: '初めて飛行機に乗った。'),
+      ExampleWord(word: '最初', reading: 'さいしょ', meaning: 'いちばんはじめ', sentence: '最初に名前を書いた。'),
+      ExampleWord(word: '初日', reading: 'しょにち', meaning: 'はじめの日', sentence: '新学期の初日はわくわくした。'),
+      ExampleWord(word: '初雪', reading: 'はつゆき', meaning: 'その冬のはじめての雪', sentence: '初雪がふってうれしかった。'),
+    ],
+  ),
+  // 95. 松
+  KanjiChar(
+    character: '松',
+    grade: 4,
+    kunReadings: ['まつ'],
+    onReadings: ['ショウ'],
+    examples: [
+      ExampleWord(word: '松', reading: 'まつ', meaning: '一年中みどりの木', sentence: '庭に大きな松がある。'),
+      ExampleWord(word: '松林', reading: 'まつばやし', meaning: '松がたくさんある林', sentence: '松林を散歩した。'),
+      ExampleWord(word: '松かさ', reading: 'まつかさ', meaning: '松の実', sentence: '松かさをひろって工作した。'),
+      ExampleWord(word: '松原', reading: 'まつばら', meaning: '松がたくさんある原', sentence: '海岸の松原を歩いた。'),
+      ExampleWord(word: '門松', reading: 'かどまつ', meaning: 'お正月にかざる松', sentence: '家の前に門松をかざった。'),
+    ],
+  ),
+  // 96. 笑
+  KanjiChar(
+    character: '笑',
+    grade: 4,
+    kunReadings: ['わら-う', 'え-む'],
+    onReadings: ['ショウ'],
+    examples: [
+      ExampleWord(word: '笑う', reading: 'わらう', meaning: 'おかしくて声を出すこと', sentence: 'おもしろい話を聞いて笑った。'),
+      ExampleWord(word: '笑い', reading: 'わらい', meaning: 'わらうこと', sentence: '笑いが教室に広がった。'),
+      ExampleWord(word: '笑顔', reading: 'えがお', meaning: 'にこにこした顔', sentence: '先生の笑顔はあたたかい。'),
+      ExampleWord(word: '大笑い', reading: 'おおわらい', meaning: 'とてもわらうこと', sentence: 'みんなで大笑いした。'),
+      ExampleWord(word: '笑い声', reading: 'わらいごえ', meaning: 'わらうときの声', sentence: '子どもの笑い声が聞こえた。'),
+    ],
+  ),
+  // 97. 唱
+  KanjiChar(
+    character: '唱',
+    grade: 4,
+    kunReadings: ['とな-える'],
+    onReadings: ['ショウ'],
+    examples: [
+      ExampleWord(word: '唱える', reading: 'となえる', meaning: '声に出して言うこと', sentence: '大きな声で九九を唱えた。'),
+      ExampleWord(word: '合唱', reading: 'がっしょう', meaning: 'みんなでうたうこと', sentence: '音楽会で合唱した。'),
+      ExampleWord(word: '唱歌', reading: 'しょうか', meaning: '学校でうたう歌', sentence: '古い唱歌をうたった。'),
+      ExampleWord(word: '合唱団', reading: 'がっしょうだん', meaning: 'いっしょにうたうグループ', sentence: '合唱団に入った。'),
+      ExampleWord(word: '独唱', reading: 'どくしょう', meaning: 'ひとりでうたうこと', sentence: '友だちが独唱した。'),
+    ],
+  ),
+  // 98. 焼
+  KanjiChar(
+    character: '焼',
+    grade: 4,
+    kunReadings: ['や-く', 'や-ける'],
+    onReadings: ['ショウ'],
+    examples: [
+      ExampleWord(word: '焼く', reading: 'やく', meaning: '火であたためること', sentence: 'パンを焼いて朝ごはんにした。'),
+      ExampleWord(word: '焼ける', reading: 'やける', meaning: '火でこげること', sentence: 'ケーキが上手に焼けた。'),
+      ExampleWord(word: '焼き魚', reading: 'やきざかな', meaning: '焼いた魚', sentence: '焼き魚がおいしかった。'),
+      ExampleWord(word: '夕焼け', reading: 'ゆうやけ', meaning: 'ゆうがたの赤い空', sentence: '夕焼けがきれいだった。'),
+      ExampleWord(word: '全焼', reading: 'ぜんしょう', meaning: 'ぜんぶ焼けること', sentence: '古い小屋が全焼した。'),
+    ],
+  ),
+  // 99. 象
+  KanjiChar(
+    character: '象',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ショウ', 'ゾウ'],
+    examples: [
+      ExampleWord(word: '象', reading: 'ぞう', meaning: '大きな動物', sentence: '動物園で象を見た。'),
+      ExampleWord(word: '印象', reading: 'いんしょう', meaning: '心にのこる感じ', sentence: 'この本の印象を話した。'),
+      ExampleWord(word: '対象', reading: 'たいしょう', meaning: 'あいてになるもの', sentence: '四年生が対象の大会だ。'),
+      ExampleWord(word: '気象', reading: 'きしょう', meaning: '天気のようす', sentence: '気象のデータを調べた。'),
+      ExampleWord(word: '現象', reading: 'げんしょう', meaning: '目に見えるできごと', sentence: 'ふしぎな現象を見つけた。'),
+    ],
+  ),
+  // 100. 照
+  KanjiChar(
+    character: '照',
+    grade: 4,
+    kunReadings: ['て-る', 'て-らす', 'て-れる'],
+    onReadings: ['ショウ'],
+    examples: [
+      ExampleWord(word: '照る', reading: 'てる', meaning: '光ること', sentence: '日が照って暑い日だ。'),
+      ExampleWord(word: '照らす', reading: 'てらす', meaning: '光をあてること', sentence: '月が夜道を照らした。'),
+      ExampleWord(word: '照れる', reading: 'てれる', meaning: 'はずかしがること', sentence: 'ほめられて照れた。'),
+      ExampleWord(word: '照明', reading: 'しょうめい', meaning: 'あかり', sentence: '部屋の照明をつけた。'),
+      ExampleWord(word: '対照', reading: 'たいしょう', meaning: 'くらべること', sentence: '二つの絵を対照した。'),
+    ],
+  ),
+];
