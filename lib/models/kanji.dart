@@ -1,3 +1,13 @@
+String _toKatakana(String input) {
+  return input.runes.map((r) {
+    // ひらがな (U+3041..U+3096) → カタカナ (U+30A1..U+30F6)
+    if (r >= 0x3041 && r <= 0x3096) {
+      return String.fromCharCode(r + 0x60);
+    }
+    return String.fromCharCode(r);
+  }).join();
+}
+
 class KanjiChar {
   final String character;
   final int grade;
@@ -19,8 +29,9 @@ class KanjiChar {
     for (final r in kunReadings) {
       if (r.replaceAll('-', '').replaceAll('.', '').contains(query)) return true;
     }
+    final queryKatakana = _toKatakana(query);
     for (final r in onReadings) {
-      if (r.contains(query)) return true;
+      if (r.contains(query) || r.contains(queryKatakana)) return true;
     }
     return false;
   }

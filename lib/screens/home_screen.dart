@@ -270,8 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final searchBg = isDark ? AppColors.darkSearchBg : AppColors.lightSearchBg;
     final cardBg = isDark ? AppColors.darkCardBg : AppColors.lightCardBg;
 
-    // Calculate grid cross axis count based on available width
-    final crossAxisCount = isTablet ? 7 : 5;
+    // Calculate grid cross axis count dynamically based on available width
 
     return Column(
       children: [
@@ -388,13 +387,17 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         // Kanji grid
         Expanded(
-          child: GridView.builder(
-            padding: const EdgeInsets.all(12),
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: crossAxisCount,
-              mainAxisSpacing: 8,
-              crossAxisSpacing: 8,
-            ),
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final availableWidth = constraints.maxWidth - 24; // padding 12*2
+              final crossAxisCount = (availableWidth / 120).floor().clamp(3, 10);
+              return GridView.builder(
+                padding: const EdgeInsets.all(12),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: crossAxisCount,
+                  mainAxisSpacing: 8,
+                  crossAxisSpacing: 8,
+                ),
             itemCount: filtered.length,
             itemBuilder: (context, index) {
               final kanji = filtered[index];
@@ -438,6 +441,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
+              );
+            },
               );
             },
           ),
