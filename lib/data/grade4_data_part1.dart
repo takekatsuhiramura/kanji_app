@@ -1,7 +1,6 @@
 import '../models/kanji.dart';
 
 const List<KanjiChar> grade4KanjiPart1 = [
-  // 1. 愛
   KanjiChar(
     character: '愛',
     grade: 4,
@@ -15,7 +14,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '愛国', reading: 'あいこく', meaning: '自分の国を大切に思うこと', sentence: '愛国の気もちを学んだ。'),
     ],
   ),
-  // 2. 案
   KanjiChar(
     character: '案',
     grade: 4,
@@ -29,7 +27,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '考案', reading: 'こうあん', meaning: '考え出すこと', sentence: '新しいあそびを考案した。'),
     ],
   ),
-  // 3. 以
   KanjiChar(
     character: '以',
     grade: 4,
@@ -43,7 +40,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '以来', reading: 'いらい', meaning: 'それからずっと', sentence: '入学以来、毎日元気に通っている。'),
     ],
   ),
-  // 4. 衣
   KanjiChar(
     character: '衣',
     grade: 4,
@@ -57,7 +53,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '上衣', reading: 'うわぎ', meaning: '上に着るもの', sentence: '上衣をぬいでいすにかけた。'),
     ],
   ),
-  // 5. 位
   KanjiChar(
     character: '位',
     grade: 4,
@@ -71,7 +66,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '位置', reading: 'いち', meaning: 'あるところ、ばしょ', sentence: '自分の位置を地図でたしかめた。'),
     ],
   ),
-  // 6. 囲
   KanjiChar(
     character: '囲',
     grade: 4,
@@ -85,7 +79,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '囲う', reading: 'かこう', meaning: 'まわりをおおうこと', sentence: 'はたけを囲うさくを立てた。'),
     ],
   ),
-  // 7. 胃
   KanjiChar(
     character: '胃',
     grade: 4,
@@ -99,7 +92,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '胃カメラ', reading: 'いかめら', meaning: '胃の中を見る道具', sentence: '父が胃カメラのけんさを受けた。'),
     ],
   ),
-  // 8. 印
   KanjiChar(
     character: '印',
     grade: 4,
@@ -113,7 +105,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '印しょう', reading: 'いんしょう', meaning: '心にのこる感じ', sentence: 'この本は印しょうに残った。'),
     ],
   ),
-  // 9. 英
   KanjiChar(
     character: '英',
     grade: 4,
@@ -127,7 +118,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '英会話', reading: 'えいかいわ', meaning: '英語で話すこと', sentence: '英会話の教室に通っている。'),
     ],
   ),
-  // 10. 栄
   KanjiChar(
     character: '栄',
     grade: 4,
@@ -141,7 +131,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '栄よう', reading: 'えいよう', meaning: '体を元気にするもと', sentence: '野菜には栄ようがたくさんある。'),
     ],
   ),
-  // 11. 塩
   KanjiChar(
     character: '塩',
     grade: 4,
@@ -155,7 +144,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '塩田', reading: 'えんでん', meaning: '塩を作る田', sentence: '海のそばに塩田があった。'),
     ],
   ),
-  // 12. 億
   KanjiChar(
     character: '億',
     grade: 4,
@@ -169,7 +157,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '十億', reading: 'じゅうおく', meaning: '億が十こ', sentence: '十億円あったら何を買おう。'),
     ],
   ),
-  // 13. 加
   KanjiChar(
     character: '加',
     grade: 4,
@@ -183,7 +170,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '参加', reading: 'さんか', meaning: 'なかまに入ること', sentence: '大会に参加した。'),
     ],
   ),
-  // 14. 果
   KanjiChar(
     character: '果',
     grade: 4,
@@ -197,7 +183,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '果て', reading: 'はて', meaning: 'いちばんはしのところ', sentence: '空の果てまで見わたした。'),
     ],
   ),
-  // 15. 貨
   KanjiChar(
     character: '貨',
     grade: 4,
@@ -211,7 +196,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '外貨', reading: 'がいか', meaning: '外国のお金', sentence: '外貨をえんにかえた。'),
     ],
   ),
-  // 16. 課
   KanjiChar(
     character: '課',
     grade: 4,
@@ -225,7 +209,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '学課', reading: 'がっか', meaning: 'まなぶないよう', sentence: '今日の学課はとてもおもしろかった。'),
     ],
   ),
-  // 17. 芽
   KanjiChar(
     character: '芽',
     grade: 4,
@@ -239,7 +222,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '発芽', reading: 'はつが', meaning: 'たねから芽が出ること', sentence: 'たねをまいたら発芽した。'),
     ],
   ),
-  // 18. 改
   KanjiChar(
     character: '改',
     grade: 4,
@@ -253,7 +235,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '改しん', reading: 'かいしん', meaning: 'あたらしくすること', sentence: '古い建物を改しんした。'),
     ],
   ),
-  // 19. 械
   KanjiChar(
     character: '械',
     grade: 4,
@@ -267,7 +248,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '機械室', reading: 'きかいしつ', meaning: '機械をおく部屋', sentence: '学校の地下に機械室がある。'),
     ],
   ),
-  // 20. 害
   KanjiChar(
     character: '害',
     grade: 4,
@@ -281,7 +261,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '害する', reading: 'がいする', meaning: 'わるいことをすること', sentence: '体を害する食べ方はよくない。'),
     ],
   ),
-  // 21. 街
   KanjiChar(
     character: '街',
     grade: 4,
@@ -295,7 +274,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '市街', reading: 'しがい', meaning: '町のなか', sentence: '市街に大きな建物が多い。'),
     ],
   ),
-  // 22. 各
   KanjiChar(
     character: '各',
     grade: 4,
@@ -309,7 +287,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '各回', reading: 'かくかい', meaning: 'それぞれの回', sentence: '各回のテストをがんばった。'),
     ],
   ),
-  // 23. 覚
   KanjiChar(
     character: '覚',
     grade: 4,
@@ -323,7 +300,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '自覚', reading: 'じかく', meaning: '自分でわかること', sentence: '四年生の自覚を持とう。'),
     ],
   ),
-  // 24. 完
   KanjiChar(
     character: '完',
     grade: 4,
@@ -337,7 +313,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '未完成', reading: 'みかんせい', meaning: 'まだできあがっていないこと', sentence: '作品はまだ未完成だ。'),
     ],
   ),
-  // 25. 官
   KanjiChar(
     character: '官',
     grade: 4,
@@ -351,7 +326,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '外交官', reading: 'がいこうかん', meaning: '外国とのやりとりをする人', sentence: '外交官になりたいと思った。'),
     ],
   ),
-  // 26. 管
   KanjiChar(
     character: '管',
     grade: 4,
@@ -365,7 +339,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '血管', reading: 'けっかん', meaning: '体の中の血が通る管', sentence: '血管は体じゅうにある。'),
     ],
   ),
-  // 27. 関
   KanjiChar(
     character: '関',
     grade: 4,
@@ -379,7 +352,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '関東', reading: 'かんとう', meaning: '日本のまん中あたりの地方', sentence: '関東地方に大雨がふった。'),
     ],
   ),
-  // 28. 観
   KanjiChar(
     character: '観',
     grade: 4,
@@ -393,7 +365,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '観点', reading: 'かんてん', meaning: '見かた、考えかた', sentence: 'ちがう観点から考えてみよう。'),
     ],
   ),
-  // 29. 願
   KanjiChar(
     character: '願',
     grade: 4,
@@ -407,7 +378,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: 'お願い', reading: 'おねがい', meaning: 'たのみごと', sentence: '先生にお願いをした。'),
     ],
   ),
-  // 30. 希
   KanjiChar(
     character: '希',
     grade: 4,
@@ -421,7 +391,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '希有', reading: 'けう', meaning: 'めずらしいこと', sentence: 'これは希有なことだ。'),
     ],
   ),
-  // 31. 季
   KanjiChar(
     character: '季',
     grade: 4,
@@ -435,7 +404,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '冬季', reading: 'とうき', meaning: '冬のきかん', sentence: '冬季には雪が多い。'),
     ],
   ),
-  // 34. 旗
   KanjiChar(
     character: '旗',
     grade: 4,
@@ -449,7 +417,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '小旗', reading: 'こばた', meaning: '小さな旗', sentence: 'みんなで小旗をふっておうえんした。'),
     ],
   ),
-  // 35. 器
   KanjiChar(
     character: '器',
     grade: 4,
@@ -463,7 +430,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '花器', reading: 'かき', meaning: '花を入れる器', sentence: '花器に花をかざった。'),
     ],
   ),
-  // 36. 機
   KanjiChar(
     character: '機',
     grade: 4,
@@ -477,7 +443,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '動機', reading: 'どうき', meaning: 'なにかをするきっかけ', sentence: '読書をはじめた動機を話した。'),
     ],
   ),
-  // 37. 議
   KanjiChar(
     character: '議',
     grade: 4,
@@ -491,7 +456,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '議題', reading: 'ぎだい', meaning: '話し合うないよう', sentence: '今日の議題は遠足のことだ。'),
     ],
   ),
-  // 38. 求
   KanjiChar(
     character: '求',
     grade: 4,
@@ -505,7 +469,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '求め', reading: 'もとめ', meaning: 'もとめること', sentence: '友だちの求めにこたえた。'),
     ],
   ),
-  // 39. 泣
   KanjiChar(
     character: '泣',
     grade: 4,
@@ -519,7 +482,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: 'うれし泣き', reading: 'うれしなき', meaning: 'うれしくて泣くこと', sentence: '合かくしてうれし泣きした。'),
     ],
   ),
-  // 40. 給
   KanjiChar(
     character: '給',
     grade: 4,
@@ -533,7 +495,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '給油', reading: 'きゅうゆ', meaning: '油を入れること', sentence: '車に給油した。'),
     ],
   ),
-  // 41. 挙
   KanjiChar(
     character: '挙',
     grade: 4,
@@ -547,7 +508,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '一挙に', reading: 'いっきょに', meaning: 'いちどに', sentence: '一挙に三さつの本を読んだ。'),
     ],
   ),
-  // 42. 漁
   KanjiChar(
     character: '漁',
     grade: 4,
@@ -561,7 +521,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '漁村', reading: 'ぎょそん', meaning: '漁業をする村', sentence: '海の近くに漁村がある。'),
     ],
   ),
-  // 43. 共
   KanjiChar(
     character: '共',
     grade: 4,
@@ -575,7 +534,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '共有', reading: 'きょうゆう', meaning: 'いっしょに持つこと', sentence: 'この本をみんなで共有した。'),
     ],
   ),
-  // 44. 協
   KanjiChar(
     character: '協',
     grade: 4,
@@ -589,7 +547,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '協定', reading: 'きょうてい', meaning: 'いっしょにきめること', sentence: '二つの町で協定を結んだ。'),
     ],
   ),
-  // 45. 鏡
   KanjiChar(
     character: '鏡',
     grade: 4,
@@ -603,7 +560,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '鏡もち', reading: 'かがみもち', meaning: 'お正月にかざるもち', sentence: '鏡もちをかざって新年をむかえた。'),
     ],
   ),
-  // 46. 競
   KanjiChar(
     character: '競',
     grade: 4,
@@ -617,7 +573,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '競馬', reading: 'けいば', meaning: '馬で走る競走', sentence: '競馬を見に行った。'),
     ],
   ),
-  // 47. 極
   KanjiChar(
     character: '極',
     grade: 4,
@@ -631,7 +586,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '積極的', reading: 'せっきょくてき', meaning: 'すすんでやるようす', sentence: '積極的に手を挙げた。'),
     ],
   ),
-  // 48. 訓
   KanjiChar(
     character: '訓',
     grade: 4,
@@ -645,7 +599,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '音訓', reading: 'おんくん', meaning: '音読みと訓読み', sentence: '漢字の音訓を調べた。'),
     ],
   ),
-  // 49. 軍
   KanjiChar(
     character: '軍',
     grade: 4,
@@ -659,7 +612,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '赤軍・白軍', reading: 'あかぐん・しろぐん', meaning: '赤と白のチーム', sentence: '運動会は赤軍と白軍に分かれた。'),
     ],
   ),
-  // 50. 郡
   KanjiChar(
     character: '郡',
     grade: 4,
@@ -673,7 +625,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '郡山', reading: 'こおりやま', meaning: '地名', sentence: '郡山市は大きな町だ。'),
     ],
   ),
-  // 51. 径
   KanjiChar(
     character: '径',
     grade: 4,
@@ -687,7 +638,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '小径', reading: 'こみち', meaning: '小さな道', sentence: '森の小径を歩いた。'),
     ],
   ),
-  // 53. 景
   KanjiChar(
     character: '景',
     grade: 4,
@@ -701,7 +651,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '夜景', reading: 'やけい', meaning: '夜のながめ', sentence: '山の上から夜景を見た。'),
     ],
   ),
-  // 54. 芸
   KanjiChar(
     character: '芸',
     grade: 4,
@@ -715,7 +664,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '園芸', reading: 'えんげい', meaning: '花や木を育てること', sentence: '園芸クラブで花を育てた。'),
     ],
   ),
-  // 55. 欠
   KanjiChar(
     character: '欠',
     grade: 4,
@@ -729,7 +677,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '欠かせない', reading: 'かかせない', meaning: 'なくてはならない', sentence: '水は生活に欠かせない。'),
     ],
   ),
-  // 56. 結
   KanjiChar(
     character: '結',
     grade: 4,
@@ -743,7 +690,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '結び目', reading: 'むすびめ', meaning: 'むすんだところ', sentence: 'ひもの結び目がかたい。'),
     ],
   ),
-  // 57. 建
   KanjiChar(
     character: '建',
     grade: 4,
@@ -757,7 +703,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '建設', reading: 'けんせつ', meaning: '大きなものを作ること', sentence: '学校の建設がはじまった。'),
     ],
   ),
-  // 58. 健
   KanjiChar(
     character: '健',
     grade: 4,
@@ -771,7 +716,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '保健', reading: 'ほけん', meaning: '体を守ること', sentence: '保健の先生に相談した。'),
     ],
   ),
-  // 59. 験
   KanjiChar(
     character: '験',
     grade: 4,
@@ -785,7 +729,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '受験', reading: 'じゅけん', meaning: '試験を受けること', sentence: '受験にむけてべんきょうする。'),
     ],
   ),
-  // 60. 固
   KanjiChar(
     character: '固',
     grade: 4,
@@ -799,7 +742,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '固定', reading: 'こてい', meaning: 'うごかないようにすること', sentence: 'テープで紙を固定した。'),
     ],
   ),
-  // 61. 功
   KanjiChar(
     character: '功',
     grade: 4,
@@ -813,7 +755,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '大成功', reading: 'だいせいこう', meaning: 'とてもうまくいくこと', sentence: 'えんげきが大成功した。'),
     ],
   ),
-  // 62. 好
   KanjiChar(
     character: '好',
     grade: 4,
@@ -827,7 +768,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '好み', reading: 'このみ', meaning: 'すきなこと', sentence: '好みの色は青だ。'),
     ],
   ),
-  // 63. 候
   KanjiChar(
     character: '候',
     grade: 4,
@@ -841,7 +781,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '候鳥', reading: 'こうちょう', meaning: 'きせつでうつりかわる鳥', sentence: '候鳥が南からわたってきた。'),
     ],
   ),
-  // 64. 航
   KanjiChar(
     character: '航',
     grade: 4,
@@ -855,7 +794,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '就航', reading: 'しゅうこう', meaning: '運航をはじめること', sentence: '新しい船が就航した。'),
     ],
   ),
-  // 65. 康
   KanjiChar(
     character: '康',
     grade: 4,
@@ -869,7 +807,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '康らか', reading: 'やすらか', meaning: 'おだやかなこと', sentence: '心が康らかになった。'),
     ],
   ),
-  // 66. 告
   KanjiChar(
     character: '告',
     grade: 4,
@@ -883,7 +820,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '告白', reading: 'こくはく', meaning: 'ほんとうのことを言うこと', sentence: 'しっぱいを正直に告白した。'),
     ],
   ),
-  // 67. 差
   KanjiChar(
     character: '差',
     grade: 4,
@@ -897,7 +833,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '差し出す', reading: 'さしだす', meaning: '前に出すこと', sentence: '手紙を差し出した。'),
     ],
   ),
-  // 68. 菜
   KanjiChar(
     character: '菜',
     grade: 4,
@@ -911,7 +846,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '青菜', reading: 'あおな', meaning: 'みどり色の葉っぱの野菜', sentence: '青菜をゆでて食べた。'),
     ],
   ),
-  // 69. 最
   KanjiChar(
     character: '最',
     grade: 4,
@@ -925,7 +859,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '最近', reading: 'さいきん', meaning: 'ちかごろ', sentence: '最近は雨が多い。'),
     ],
   ),
-  // 70. 材
   KanjiChar(
     character: '材',
     grade: 4,
@@ -939,7 +872,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '木材', reading: 'もくざい', meaning: '使うための木', sentence: '木材を切って板にした。'),
     ],
   ),
-  // 71. 昨
   KanjiChar(
     character: '昨',
     grade: 4,
@@ -953,7 +885,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '一昨日', reading: 'おととい', meaning: 'きのうの前の日', sentence: '一昨日から雨がふっている。'),
     ],
   ),
-  // 72. 札
   KanjiChar(
     character: '札',
     grade: 4,
@@ -967,7 +898,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '切り札', reading: 'きりふだ', meaning: 'ここぞというときのもの', sentence: 'これが最後の切り札だ。'),
     ],
   ),
-  // 73. 刷
   KanjiChar(
     character: '刷',
     grade: 4,
@@ -981,7 +911,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '増刷', reading: 'ぞうさつ', meaning: 'もっと刷ること', sentence: '人気の本が増刷された。'),
     ],
   ),
-  // 74. 殺
   KanjiChar(
     character: '殺',
     grade: 4,
@@ -995,7 +924,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '相殺', reading: 'そうさい', meaning: 'おたがいに打ち消すこと', sentence: 'よいところと悪いところが相殺された。'),
     ],
   ),
-  // 75. 察
   KanjiChar(
     character: '察',
     grade: 4,
@@ -1009,7 +937,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '視察', reading: 'しさつ', meaning: 'じっさいに見てまわること', sentence: '工場の視察に行った。'),
     ],
   ),
-  // 76. 参
   KanjiChar(
     character: '参',
     grade: 4,
@@ -1023,7 +950,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '参道', reading: 'さんどう', meaning: 'お寺や神社に行く道', sentence: '参道をゆっくり歩いた。'),
     ],
   ),
-  // 77. 産
   KanjiChar(
     character: '産',
     grade: 4,
@@ -1037,7 +963,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '水産', reading: 'すいさん', meaning: '海や川でとれるもの', sentence: '水産物を売る市場に行った。'),
     ],
   ),
-  // 78. 散
   KanjiChar(
     character: '散',
     grade: 4,
@@ -1051,7 +976,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '解散', reading: 'かいさん', meaning: 'あつまりをとくこと', sentence: '会は五時に解散した。'),
     ],
   ),
-  // 79. 残
   KanjiChar(
     character: '残',
     grade: 4,
@@ -1065,7 +989,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '残業', reading: 'ざんぎょう', meaning: '時間のあとも働くこと', sentence: '父は残業で遅くなった。'),
     ],
   ),
-  // 80. 士
   KanjiChar(
     character: '士',
     grade: 4,
@@ -1079,7 +1002,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '富士山', reading: 'ふじさん', meaning: '日本一高い山', sentence: '富士山を見に行った。'),
     ],
   ),
-  // 81. 氏
   KanjiChar(
     character: '氏',
     grade: 4,
@@ -1093,7 +1015,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '両氏', reading: 'りょうし', meaning: '二人の人', sentence: '両氏の話を聞いた。'),
     ],
   ),
-  // 82. 史
   KanjiChar(
     character: '史',
     grade: 4,
@@ -1107,7 +1028,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '史上', reading: 'しじょう', meaning: '歴史の中で', sentence: '史上はじめてのきろくだ。'),
     ],
   ),
-  // 83. 司
   KanjiChar(
     character: '司',
     grade: 4,
@@ -1121,7 +1041,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '司会者', reading: 'しかいしゃ', meaning: '会をすすめるやくの人', sentence: '司会者が名前をよんだ。'),
     ],
   ),
-  // 84. 試
   KanjiChar(
     character: '試',
     grade: 4,
@@ -1135,7 +1054,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '試食', reading: 'ししょく', meaning: 'ためしに食べること', sentence: 'お店で試食をした。'),
     ],
   ),
-  // 85. 児
   KanjiChar(
     character: '児',
     grade: 4,
@@ -1149,7 +1067,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '育児', reading: 'いくじ', meaning: '子どもを育てること', sentence: '母は育児にいそがしい。'),
     ],
   ),
-  // 86. 治
   KanjiChar(
     character: '治',
     grade: 4,
@@ -1163,7 +1080,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '自治', reading: 'じち', meaning: '自分たちでおさめること', sentence: 'クラスの自治活動をした。'),
     ],
   ),
-  // 87. 辞
   KanjiChar(
     character: '辞',
     grade: 4,
@@ -1177,7 +1093,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '辞退', reading: 'じたい', meaning: 'ことわること', sentence: 'えんりょして辞退した。'),
     ],
   ),
-  // 88. 失
   KanjiChar(
     character: '失',
     grade: 4,
@@ -1191,7 +1106,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '失点', reading: 'しってん', meaning: 'てんを取られること', sentence: '試合で失点してしまった。'),
     ],
   ),
-  // 89. 借
   KanjiChar(
     character: '借',
     grade: 4,
@@ -1205,7 +1119,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '借用', reading: 'しゃくよう', meaning: '借りて使うこと', sentence: '教室を借用した。'),
     ],
   ),
-  // 90. 種
   KanjiChar(
     character: '種',
     grade: 4,
@@ -1219,7 +1132,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '一種', reading: 'いっしゅ', meaning: 'ひとつの種類', sentence: 'これは一種のあそびだ。'),
     ],
   ),
-  // 91. 周
   KanjiChar(
     character: '周',
     grade: 4,
@@ -1233,7 +1145,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '円周', reading: 'えんしゅう', meaning: '円のまわりの長さ', sentence: '円周を計算した。'),
     ],
   ),
-  // 92. 祝
   KanjiChar(
     character: '祝',
     grade: 4,
@@ -1247,7 +1158,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '祝電', reading: 'しゅくでん', meaning: 'お祝いの電話やてがみ', sentence: '祝電がとどいた。'),
     ],
   ),
-  // 93. 順
   KanjiChar(
     character: '順',
     grade: 4,
@@ -1261,7 +1171,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '順々に', reading: 'じゅんじゅんに', meaning: 'ひとつずつ', sentence: '順々に発表した。'),
     ],
   ),
-  // 94. 初
   KanjiChar(
     character: '初',
     grade: 4,
@@ -1275,7 +1184,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '初雪', reading: 'はつゆき', meaning: 'その冬のはじめての雪', sentence: '初雪がふってうれしかった。'),
     ],
   ),
-  // 95. 松
   KanjiChar(
     character: '松',
     grade: 4,
@@ -1289,7 +1197,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '門松', reading: 'かどまつ', meaning: 'お正月にかざる松', sentence: '家の前に門松をかざった。'),
     ],
   ),
-  // 96. 笑
   KanjiChar(
     character: '笑',
     grade: 4,
@@ -1303,7 +1210,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '笑い声', reading: 'わらいごえ', meaning: 'わらうときの声', sentence: '子どもの笑い声が聞こえた。'),
     ],
   ),
-  // 97. 唱
   KanjiChar(
     character: '唱',
     grade: 4,
@@ -1317,7 +1223,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '独唱', reading: 'どくしょう', meaning: 'ひとりでうたうこと', sentence: '友だちが独唱した。'),
     ],
   ),
-  // 98. 焼
   KanjiChar(
     character: '焼',
     grade: 4,
@@ -1331,7 +1236,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '全焼', reading: 'ぜんしょう', meaning: 'ぜんぶ焼けること', sentence: '古い小屋が全焼した。'),
     ],
   ),
-  // 100. 照
   KanjiChar(
     character: '照',
     grade: 4,

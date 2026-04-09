@@ -1,7 +1,6 @@
 import '../models/kanji.dart';
 
 const List<KanjiChar> grade1Kanji = [
-  // 1. 一
   KanjiChar(
     character: '一',
     grade: 1,
@@ -41,7 +40,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 2. 右
   KanjiChar(
     character: '右',
     grade: 1,
@@ -81,7 +79,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 3. 雨
   KanjiChar(
     character: '雨',
     grade: 1,
@@ -121,7 +118,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 4. 円
   KanjiChar(
     character: '円',
     grade: 1,
@@ -161,7 +157,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 5. 王
   KanjiChar(
     character: '王',
     grade: 1,
@@ -201,7 +196,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 6. 音
   KanjiChar(
     character: '音',
     grade: 1,
@@ -241,7 +235,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 7. 下
   KanjiChar(
     character: '下',
     grade: 1,
@@ -281,7 +274,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 8. 火
   KanjiChar(
     character: '火',
     grade: 1,
@@ -321,7 +313,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 9. 花
   KanjiChar(
     character: '花',
     grade: 1,
@@ -361,7 +352,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 10. 貝
   KanjiChar(
     character: '貝',
     grade: 1,
@@ -401,7 +391,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 11. 学
   KanjiChar(
     character: '学',
     grade: 1,
@@ -441,7 +430,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 12. 気
   KanjiChar(
     character: '気',
     grade: 1,
@@ -481,7 +469,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 13. 九
   KanjiChar(
     character: '九',
     grade: 1,
@@ -521,7 +508,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 14. 休
   KanjiChar(
     character: '休',
     grade: 1,
@@ -561,7 +547,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 15. 玉
   KanjiChar(
     character: '玉',
     grade: 1,
@@ -601,7 +586,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 16. 金
   KanjiChar(
     character: '金',
     grade: 1,
@@ -641,7 +625,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 17. 空
   KanjiChar(
     character: '空',
     grade: 1,
@@ -681,7 +664,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 18. 月
   KanjiChar(
     character: '月',
     grade: 1,
@@ -721,7 +703,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 19. 犬
   KanjiChar(
     character: '犬',
     grade: 1,
@@ -761,7 +742,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 20. 見
   KanjiChar(
     character: '見',
     grade: 1,
@@ -801,7 +781,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 21. 五
   KanjiChar(
     character: '五',
     grade: 1,
@@ -841,7 +820,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 22. 口
   KanjiChar(
     character: '口',
     grade: 1,
@@ -881,7 +859,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 23. 校
   KanjiChar(
     character: '校',
     grade: 1,
@@ -921,7 +898,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 24. 左
   KanjiChar(
     character: '左',
     grade: 1,
@@ -961,7 +937,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 25. 三
   KanjiChar(
     character: '三',
     grade: 1,
@@ -1001,7 +976,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 26. 山
   KanjiChar(
     character: '山',
     grade: 1,
@@ -1041,7 +1015,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 27. 子
   KanjiChar(
     character: '子',
     grade: 1,
@@ -1081,7 +1054,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 28. 四
   KanjiChar(
     character: '四',
     grade: 1,
@@ -1121,7 +1093,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 29. 糸
   KanjiChar(
     character: '糸',
     grade: 1,
@@ -1161,7 +1132,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 30. 字
   KanjiChar(
     character: '字',
     grade: 1,
@@ -1201,7 +1171,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 31. 耳
   KanjiChar(
     character: '耳',
     grade: 1,
@@ -1241,7 +1210,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 32. 七
   KanjiChar(
     character: '七',
     grade: 1,
@@ -1281,7 +1249,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 33. 車
   KanjiChar(
     character: '車',
     grade: 1,
@@ -1321,7 +1288,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 34. 手
   KanjiChar(
     character: '手',
     grade: 1,
@@ -1361,7 +1327,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 35. 十
   KanjiChar(
     character: '十',
     grade: 1,
@@ -1401,7 +1366,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 36. 出
   KanjiChar(
     character: '出',
     grade: 1,
@@ -1441,7 +1405,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 37. 女
   KanjiChar(
     character: '女',
     grade: 1,
@@ -1481,7 +1444,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 38. 小
   KanjiChar(
     character: '小',
     grade: 1,
@@ -1521,7 +1483,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 39. 上
   KanjiChar(
     character: '上',
     grade: 1,
@@ -1561,7 +1522,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 40. 森
   KanjiChar(
     character: '森',
     grade: 1,
@@ -1601,7 +1561,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 41. 人
   KanjiChar(
     character: '人',
     grade: 1,
@@ -1641,7 +1600,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 42. 水
   KanjiChar(
     character: '水',
     grade: 1,
@@ -1681,7 +1639,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 43. 正
   KanjiChar(
     character: '正',
     grade: 1,
@@ -1721,7 +1678,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 44. 生
   KanjiChar(
     character: '生',
     grade: 1,
@@ -1761,7 +1717,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 45. 青
   KanjiChar(
     character: '青',
     grade: 1,
@@ -1801,7 +1756,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 46. 夕
   KanjiChar(
     character: '夕',
     grade: 1,
@@ -1841,7 +1795,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 47. 石
   KanjiChar(
     character: '石',
     grade: 1,
@@ -1881,7 +1834,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 48. 赤
   KanjiChar(
     character: '赤',
     grade: 1,
@@ -1921,7 +1873,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 49. 千
   KanjiChar(
     character: '千',
     grade: 1,
@@ -1961,7 +1912,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 50. 川
   KanjiChar(
     character: '川',
     grade: 1,
@@ -2001,7 +1951,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 51. 先
   KanjiChar(
     character: '先',
     grade: 1,
@@ -2041,7 +1990,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 52. 早
   KanjiChar(
     character: '早',
     grade: 1,
@@ -2081,7 +2029,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 53. 草
   KanjiChar(
     character: '草',
     grade: 1,
@@ -2121,7 +2068,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 54. 足
   KanjiChar(
     character: '足',
     grade: 1,
@@ -2161,7 +2107,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 55. 村
   KanjiChar(
     character: '村',
     grade: 1,
@@ -2201,7 +2146,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 56. 大
   KanjiChar(
     character: '大',
     grade: 1,
@@ -2241,7 +2185,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 57. 男
   KanjiChar(
     character: '男',
     grade: 1,
@@ -2281,7 +2224,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 58. 竹
   KanjiChar(
     character: '竹',
     grade: 1,
@@ -2321,7 +2263,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 59. 中
   KanjiChar(
     character: '中',
     grade: 1,
@@ -2361,7 +2302,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 60. 虫
   KanjiChar(
     character: '虫',
     grade: 1,
@@ -2401,7 +2341,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 61. 町
   KanjiChar(
     character: '町',
     grade: 1,
@@ -2441,7 +2380,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 62. 天
   KanjiChar(
     character: '天',
     grade: 1,
@@ -2481,7 +2419,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 63. 田
   KanjiChar(
     character: '田',
     grade: 1,
@@ -2521,7 +2458,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 64. 土
   KanjiChar(
     character: '土',
     grade: 1,
@@ -2561,7 +2497,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 65. 二
   KanjiChar(
     character: '二',
     grade: 1,
@@ -2601,7 +2536,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 66. 日
   KanjiChar(
     character: '日',
     grade: 1,
@@ -2641,7 +2575,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 67. 入
   KanjiChar(
     character: '入',
     grade: 1,
@@ -2681,7 +2614,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 68. 年
   KanjiChar(
     character: '年',
     grade: 1,
@@ -2721,7 +2653,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 69. 白
   KanjiChar(
     character: '白',
     grade: 1,
@@ -2761,7 +2692,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 70. 八
   KanjiChar(
     character: '八',
     grade: 1,
@@ -2801,7 +2731,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 71. 百
   KanjiChar(
     character: '百',
     grade: 1,
@@ -2841,7 +2770,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 72. 文
   KanjiChar(
     character: '文',
     grade: 1,
@@ -2881,7 +2809,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 73. 木
   KanjiChar(
     character: '木',
     grade: 1,
@@ -2921,7 +2848,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 74. 本
   KanjiChar(
     character: '本',
     grade: 1,
@@ -2961,7 +2887,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 75. 名
   KanjiChar(
     character: '名',
     grade: 1,
@@ -3001,7 +2926,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 76. 目
   KanjiChar(
     character: '目',
     grade: 1,
@@ -3041,7 +2965,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 77. 立
   KanjiChar(
     character: '立',
     grade: 1,
@@ -3081,7 +3004,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 78. 力
   KanjiChar(
     character: '力',
     grade: 1,
@@ -3121,7 +3043,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 79. 林
   KanjiChar(
     character: '林',
     grade: 1,
@@ -3161,7 +3082,6 @@ const List<KanjiChar> grade1Kanji = [
     ],
   ),
 
-  // 80. 六
   KanjiChar(
     character: '六',
     grade: 1,
