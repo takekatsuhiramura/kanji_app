@@ -435,34 +435,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '冬季', reading: 'とうき', meaning: '冬のきかん', sentence: '冬季には雪が多い。'),
     ],
   ),
-  // 32. 紀
-  KanjiChar(
-    character: '紀',
-    grade: 4,
-    kunReadings: [],
-    onReadings: ['キ'],
-    examples: [
-      ExampleWord(word: '世紀', reading: 'せいき', meaning: '百年のまとまり', sentence: '二十一世紀に生まれた。'),
-      ExampleWord(word: '紀行', reading: 'きこう', meaning: '旅のきろく', sentence: '紀行文を書いた。'),
-      ExampleWord(word: '紀元', reading: 'きげん', meaning: '年をかぞえるはじまり', sentence: '紀元前のことを学んだ。'),
-      ExampleWord(word: '紀元前', reading: 'きげんぜん', meaning: '紀元のまえ', sentence: '紀元前の人々の生活を調べた。'),
-      ExampleWord(word: '日本書紀', reading: 'にほんしょき', meaning: '古い日本の歴史の本', sentence: '日本書紀について学んだ。'),
-    ],
-  ),
-  // 33. 喜
-  KanjiChar(
-    character: '喜',
-    grade: 4,
-    kunReadings: ['よろこ-ぶ', 'よろこ-ばす'],
-    onReadings: ['キ'],
-    examples: [
-      ExampleWord(word: '喜ぶ', reading: 'よろこぶ', meaning: 'うれしいと思うこと', sentence: 'プレゼントをもらって喜んだ。'),
-      ExampleWord(word: '喜び', reading: 'よろこび', meaning: 'うれしい気もち', sentence: '合かくの喜びでいっぱいだ。'),
-      ExampleWord(word: '大喜び', reading: 'おおよろこび', meaning: 'とてもよろこぶこと', sentence: '一位になって大喜びした。'),
-      ExampleWord(word: '喜ばす', reading: 'よろこばす', meaning: 'うれしくさせること', sentence: 'お母さんを喜ばすために花をあげた。'),
-      ExampleWord(word: '喜楽', reading: 'きらく', meaning: 'よろこびとたのしみ', sentence: '毎日を喜楽に過ごしたい。'),
-    ],
-  ),
   // 34. 旗
   KanjiChar(
     character: '旗',
@@ -713,20 +685,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '口径', reading: 'こうけい', meaning: '入り口の大きさ', sentence: '管の口径を調べた。'),
       ExampleWord(word: '径路', reading: 'けいろ', meaning: '通る道すじ', sentence: '学校までの径路を地図に書いた。'),
       ExampleWord(word: '小径', reading: 'こみち', meaning: '小さな道', sentence: '森の小径を歩いた。'),
-    ],
-  ),
-  // 52. 型
-  KanjiChar(
-    character: '型',
-    grade: 4,
-    kunReadings: ['かた'],
-    onReadings: ['ケイ'],
-    examples: [
-      ExampleWord(word: '型', reading: 'かた', meaning: 'ものの形', sentence: 'ねん土をおしてかたの型をつけた。'),
-      ExampleWord(word: '大型', reading: 'おおがた', meaning: '大きいもの', sentence: '大型の犬がいる。'),
-      ExampleWord(word: '小型', reading: 'こがた', meaning: '小さいもの', sentence: '小型のカメラを買った。'),
-      ExampleWord(word: '血液型', reading: 'けつえきがた', meaning: '血のしゅるい', sentence: '自分の血液型を知っている。'),
-      ExampleWord(word: '新型', reading: 'しんがた', meaning: 'あたらしいかた', sentence: '新型の車はかっこいい。'),
     ],
   ),
   // 53. 景
@@ -1371,20 +1329,6 @@ const List<KanjiChar> grade4KanjiPart1 = [
       ExampleWord(word: '焼き魚', reading: 'やきざかな', meaning: '焼いた魚', sentence: '焼き魚がおいしかった。'),
       ExampleWord(word: '夕焼け', reading: 'ゆうやけ', meaning: 'ゆうがたの赤い空', sentence: '夕焼けがきれいだった。'),
       ExampleWord(word: '全焼', reading: 'ぜんしょう', meaning: 'ぜんぶ焼けること', sentence: '古い小屋が全焼した。'),
-    ],
-  ),
-  // 99. 象
-  KanjiChar(
-    character: '象',
-    grade: 4,
-    kunReadings: [],
-    onReadings: ['ショウ', 'ゾウ'],
-    examples: [
-      ExampleWord(word: '象', reading: 'ぞう', meaning: '大きな動物', sentence: '動物園で象を見た。'),
-      ExampleWord(word: '印象', reading: 'いんしょう', meaning: '心にのこる感じ', sentence: 'この本の印象を話した。'),
-      ExampleWord(word: '対象', reading: 'たいしょう', meaning: 'あいてになるもの', sentence: '四年生が対象の大会だ。'),
-      ExampleWord(word: '気象', reading: 'きしょう', meaning: '天気のようす', sentence: '気象のデータを調べた。'),
-      ExampleWord(word: '現象', reading: 'げんしょう', meaning: '目に見えるできごと', sentence: 'ふしぎな現象を見つけた。'),
     ],
   ),
   // 100. 照

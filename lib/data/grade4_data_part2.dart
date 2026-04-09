@@ -1065,20 +1065,6 @@ const List<KanjiChar> grade4KanjiPart2 = [
       ExampleWord(word: '未完成', reading: 'みかんせい', meaning: 'まだできあがっていないこと', sentence: '絵はまだ未完成だ。'),
     ],
   ),
-  // 77. 脈
-  KanjiChar(
-    character: '脈',
-    grade: 4,
-    kunReadings: [],
-    onReadings: ['ミャク'],
-    examples: [
-      ExampleWord(word: '山脈', reading: 'さんみゃく', meaning: '山がつらなったもの', sentence: '日本には大きな山脈がある。'),
-      ExampleWord(word: '脈', reading: 'みゃく', meaning: 'ちがながれるすじ', sentence: '手くびで脈をはかった。'),
-      ExampleWord(word: '動脈', reading: 'どうみゃく', meaning: '血をおくる管', sentence: '動脈のはたらきを学んだ。'),
-      ExampleWord(word: '脈拍', reading: 'みゃくはく', meaning: '脈のうつこと', sentence: '走ったあとは脈拍がはやくなる。'),
-      ExampleWord(word: '文脈', reading: 'ぶんみゃく', meaning: '文のながれ', sentence: '文脈から意味を考えた。'),
-    ],
-  ),
   // 78. 民
   KanjiChar(
     character: '民',
@@ -1317,20 +1303,6 @@ const List<KanjiChar> grade4KanjiPart2 = [
       ExampleWord(word: '実例', reading: 'じつれい', meaning: 'じっさいのたとえ', sentence: '実例をあげて説明した。'),
     ],
   ),
-  // 95. 歴
-  KanjiChar(
-    character: '歴',
-    grade: 4,
-    kunReadings: [],
-    onReadings: ['レキ'],
-    examples: [
-      ExampleWord(word: '歴史', reading: 'れきし', meaning: '昔のできごと', sentence: '日本の歴史を学んだ。'),
-      ExampleWord(word: '学歴', reading: 'がくれき', meaning: '学校でまなんだこと', sentence: '学歴をたずねられた。'),
-      ExampleWord(word: '歴代', reading: 'れきだい', meaning: '代々のこと', sentence: '歴代の校長先生の名前がならんでいる。'),
-      ExampleWord(word: '経歴', reading: 'けいれき', meaning: 'これまでのあゆみ', sentence: '先生の経歴を聞いた。'),
-      ExampleWord(word: '歴史的', reading: 'れきしてき', meaning: '歴史に関すること', sentence: 'ここは歴史的なたてものだ。'),
-    ],
-  ),
   // 96. 連
   KanjiChar(
     character: '連',
@@ -1385,6 +1357,186 @@ const List<KanjiChar> grade4KanjiPart2 = [
       ExampleWord(word: '録画', reading: 'ろくが', meaning: 'えいぞうをのこすこと', sentence: 'テレビばんぐみを録画した。'),
       ExampleWord(word: '目録', reading: 'もくろく', meaning: 'もののリスト', sentence: '目録を見て本をえらんだ。'),
       ExampleWord(word: '登録', reading: 'とうろく', meaning: '名前を書きこむこと', sentence: '図書室に本を登録した。'),
+    ],
+  ),
+  KanjiChar(
+    character: '茨',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['シ'],
+    examples: [
+      ExampleWord(word: '茨城', reading: 'いばらき', meaning: '都道府県名の一つ', sentence: '茨城県の場所を地図で調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '媛',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['エン'],
+    examples: [
+      ExampleWord(word: '愛媛', reading: 'えひめ', meaning: '都道府県名の一つ', sentence: '愛媛県はみかんで有名だ。'),
+    ],
+  ),
+  KanjiChar(
+    character: '岡',
+    grade: 4,
+    kunReadings: ['おか'],
+    onReadings: ['コウ'],
+    examples: [
+      ExampleWord(word: '岡山', reading: 'おかやま', meaning: '都道府県名の一つ', sentence: '岡山県の特産品を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '潟',
+    grade: 4,
+    kunReadings: ['かた'],
+    onReadings: ['セキ'],
+    examples: [
+      ExampleWord(word: '新潟', reading: 'にいがた', meaning: '都道府県名の一つ', sentence: '新潟県は米どころとして知られる。'),
+    ],
+  ),
+  KanjiChar(
+    character: '岐',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '岐阜', reading: 'ぎふ', meaning: '都道府県名の一つ', sentence: '岐阜県の地形を学んだ。'),
+    ],
+  ),
+  KanjiChar(
+    character: '熊',
+    grade: 4,
+    kunReadings: ['くま'],
+    onReadings: ['ユウ'],
+    examples: [
+      ExampleWord(word: '熊本', reading: 'くまもと', meaning: '都道府県名の一つ', sentence: '熊本県には有名な城がある。'),
+    ],
+  ),
+  KanjiChar(
+    character: '香',
+    grade: 4,
+    kunReadings: ['か', 'かお-り'],
+    onReadings: ['コウ', 'キョウ'],
+    examples: [
+      ExampleWord(word: '香川', reading: 'かがわ', meaning: '都道府県名の一つ', sentence: '香川県の文化を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '佐',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['サ'],
+    examples: [
+      ExampleWord(word: '佐賀', reading: 'さが', meaning: '都道府県名の一つ', sentence: '佐賀県の位置を確認した。'),
+    ],
+  ),
+  KanjiChar(
+    character: '埼',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['サイ'],
+    examples: [
+      ExampleWord(word: '埼玉', reading: 'さいたま', meaning: '都道府県名の一つ', sentence: '埼玉県にある市を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '崎',
+    grade: 4,
+    kunReadings: ['さき'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '長崎', reading: 'ながさき', meaning: '都道府県名の一つ', sentence: '長崎県の歴史を学んだ。'),
+    ],
+  ),
+  KanjiChar(
+    character: '滋',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ジ'],
+    examples: [
+      ExampleWord(word: '滋賀', reading: 'しが', meaning: '都道府県名の一つ', sentence: '滋賀県には大きな湖がある。'),
+    ],
+  ),
+  KanjiChar(
+    character: '鹿',
+    grade: 4,
+    kunReadings: ['しか', 'か'],
+    onReadings: ['ロク'],
+    examples: [
+      ExampleWord(word: '鹿児島', reading: 'かごしま', meaning: '都道府県名の一つ', sentence: '鹿児島県の自然を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '縄',
+    grade: 4,
+    kunReadings: ['なわ'],
+    onReadings: ['ジョウ'],
+    examples: [
+      ExampleWord(word: '沖縄', reading: 'おきなわ', meaning: '都道府県名の一つ', sentence: '沖縄県のくらしについて学んだ。'),
+    ],
+  ),
+  KanjiChar(
+    character: '井',
+    grade: 4,
+    kunReadings: ['い'],
+    onReadings: ['セイ', 'ショウ'],
+    examples: [
+      ExampleWord(word: '井戸', reading: 'いど', meaning: '地下水をくみ上げる場所', sentence: '昔の家には井戸があった。'),
+    ],
+  ),
+  KanjiChar(
+    character: '沖',
+    grade: 4,
+    kunReadings: ['おき'],
+    onReadings: ['チュウ'],
+    examples: [
+      ExampleWord(word: '沖合', reading: 'おきあい', meaning: '岸からはなれた海の上', sentence: '沖合に船が見えた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '栃',
+    grade: 4,
+    kunReadings: ['とち'],
+    onReadings: [],
+    examples: [
+      ExampleWord(word: '栃木', reading: 'とちぎ', meaning: '都道府県名の一つ', sentence: '栃木県の名所を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '奈',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['ナ'],
+    examples: [
+      ExampleWord(word: '奈良', reading: 'なら', meaning: '都道府県名の一つ', sentence: '奈良県には古い寺が多い。'),
+    ],
+  ),
+  KanjiChar(
+    character: '梨',
+    grade: 4,
+    kunReadings: ['なし'],
+    onReadings: ['リ'],
+    examples: [
+      ExampleWord(word: '山梨', reading: 'やまなし', meaning: '都道府県名の一つ', sentence: '山梨県の果物について調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '阪',
+    grade: 4,
+    kunReadings: ['さか'],
+    onReadings: ['ハン'],
+    examples: [
+      ExampleWord(word: '大阪', reading: 'おおさか', meaning: '都道府県名の一つ', sentence: '大阪府の人口を調べた。'),
+    ],
+  ),
+  KanjiChar(
+    character: '阜',
+    grade: 4,
+    kunReadings: [],
+    onReadings: ['フ'],
+    examples: [
+      ExampleWord(word: '岐阜', reading: 'ぎふ', meaning: '都道府県名の一つ', sentence: '岐阜県の産業を学んだ。'),
     ],
   ),
 ];

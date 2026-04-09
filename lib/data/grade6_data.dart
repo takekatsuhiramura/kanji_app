@@ -2354,4 +2354,30 @@ const List<KanjiChar> grade6Kanji = [
       ExampleWord(word: '討論', reading: 'とうろん', meaning: '意見を戦わせること', sentence: '討論会に参加した。'),
     ],
   ),
+  KanjiChar(
+    character: '机',
+    grade: 6,
+    kunReadings: ['つくえ'],
+    onReadings: ['キ'],
+    examples: [
+      ExampleWord(word: '机', reading: 'つくえ', meaning: '勉強や作業をするための台', sentence: '机の上をきれいに片付けた。'),
+      ExampleWord(word: '机上', reading: 'きじょう', meaning: '机の上', sentence: '机上にノートを広げた。'),
+      ExampleWord(word: '教机', reading: 'きょうき', meaning: '教室で使う机', sentence: '新しい教机が届いた。'),
+      ExampleWord(word: '机辺', reading: 'きへん', meaning: '机のそば', sentence: '机辺に資料を置いた。'),
+      ExampleWord(word: '机間', reading: 'きかん', meaning: '机と机の間', sentence: '先生が机間を見回った。'),
+    ],
+  ),
+  KanjiChar(
+    character: '銭',
+    grade: 6,
+    kunReadings: ['ぜに'],
+    onReadings: ['セン'],
+    examples: [
+      ExampleWord(word: '銭', reading: 'ぜに', meaning: 'お金', sentence: '昔は銭で買い物をした。'),
+      ExampleWord(word: '小銭', reading: 'こぜに', meaning: 'こまかいお金', sentence: '小銭を財布に入れた。'),
+      ExampleWord(word: '銭湯', reading: 'せんとう', meaning: '入浴料を払って入る風呂', sentence: '近所の銭湯に行った。'),
+      ExampleWord(word: '金銭', reading: 'きんせん', meaning: 'お金のこと', sentence: '金銭の管理を学んだ。'),
+      ExampleWord(word: '銭貨', reading: 'せんか', meaning: '金属でできたお金', sentence: '古い銭貨を博物館で見た。'),
+    ],
+  ),
 ];

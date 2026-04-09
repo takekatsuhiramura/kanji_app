@@ -1751,20 +1751,6 @@ const List<KanjiChar> grade5Kanji = [
       ExampleWord(word: '損得', reading: 'そんとく', meaning: '損と得', sentence: '損得を考えて行動した。'),
     ],
   ),
-  // 126. 退
-  KanjiChar(
-    character: '退',
-    grade: 5,
-    kunReadings: ['しりぞ-く', 'しりぞ-ける'],
-    onReadings: ['タイ'],
-    examples: [
-      ExampleWord(word: '退院', reading: 'たいいん', meaning: '病院を出ること', sentence: '友だちが退院した。'),
-      ExampleWord(word: '引退', reading: 'いんたい', meaning: 'やめること', sentence: '選手が引退した。'),
-      ExampleWord(word: '退場', reading: 'たいじょう', meaning: '場から出ること', sentence: '試合で退場させられた。'),
-      ExampleWord(word: '退く', reading: 'しりぞく', meaning: '後ろにさがること', sentence: '一歩退いて考えた。'),
-      ExampleWord(word: '後退', reading: 'こうたい', meaning: '後ろにさがること', sentence: '一歩も後退しない。'),
-    ],
-  ),
   // 127. 貸
   KanjiChar(
     character: '貸',
@@ -2563,18 +2549,17 @@ const List<KanjiChar> grade5Kanji = [
       ExampleWord(word: '大喜び', reading: 'おおよろこび', meaning: 'とても喜ぶこと', sentence: 'プレゼントをもらって大喜びした。'),
     ],
   ),
-  // 184. 功
   KanjiChar(
-    character: '功',
+    character: '救',
     grade: 5,
-    kunReadings: [],
-    onReadings: ['コウ', 'ク'],
+    kunReadings: ['すく-う'],
+    onReadings: ['キュウ'],
     examples: [
-      ExampleWord(word: '成功', reading: 'せいこう', meaning: 'うまくいくこと', sentence: '実験が成功した。'),
-      ExampleWord(word: '功績', reading: 'こうせき', meaning: 'すぐれた成果', sentence: '大きな功績を残した。'),
-      ExampleWord(word: '功労', reading: 'こうろう', meaning: 'つくした手がら', sentence: '功労をたたえられた。'),
-      ExampleWord(word: '年功', reading: 'ねんこう', meaning: '長年つとめた手がら', sentence: '年功を重ねた人だ。'),
-      ExampleWord(word: '武功', reading: 'ぶこう', meaning: '戦いでの手がら', sentence: '武功をあげた武士だ。'),
+      ExampleWord(word: '救う', reading: 'すくう', meaning: 'たすけること', sentence: '困っている人を救った。'),
+      ExampleWord(word: '救助', reading: 'きゅうじょ', meaning: 'たすけ出すこと', sentence: '救助隊が現場へ向かった。'),
+      ExampleWord(word: '救急', reading: 'きゅうきゅう', meaning: '急いで手当てすること', sentence: '救急車を呼んだ。'),
+      ExampleWord(word: '救命', reading: 'きゅうめい', meaning: '命を助けること', sentence: '救命の訓練を受けた。'),
+      ExampleWord(word: '救済', reading: 'きゅうさい', meaning: '苦しい立場を助けること', sentence: '被害者の救済が進んだ。'),
     ],
   ),
   // 185. 条
