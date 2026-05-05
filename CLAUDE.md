@@ -33,6 +33,11 @@ fvm flutter build ios --release      # also: web, apk
 - The dataset is split per grade in [lib/data/](lib/data/) (`grade1_data.dart` … `grade6_data.dart`) and aggregated by [lib/data/kanji_data.dart](lib/data/kanji_data.dart) into `allKanji`. **Grade 4 is split into `grade4_data_part1.dart` + `grade4_data_part2.dart`** because a single `const` list there hits Dart compile-time limits — keep that split, and split other grades the same way if they grow.
 - `KanjiChar.matchesQuery` handles search semantics: it strips `-` and `.` from kun'yomi before matching (kun readings are stored like `ひと-つ`, `た-べる`), and converts the query to katakana before matching against on'yomi. Preserve those forms when adding entries.
 - **Radicals** are a separate index in [lib/data/radical_data.dart](lib/data/radical_data.dart): each `RadicalGroup` lists the kanji characters that belong to it as a `Set<String>`. Adding a new kanji that belongs to an indexed radical means updating *both* the grade file and the relevant `kanjiSet`.
+- **After adding or editing any kanji/example data, re-run the font subsetting script** so new characters are included in the bundled fonts:
+  ```bash
+  python3 scripts/subset_fonts.py
+  ```
+  The script reads all `lib/**/*.dart` string literals, plus full hiragana/katakana, and rebuilds `assets/fonts/KleeOne-Regular.ttf` and `assets/fonts/KleeOne-SemiBold.ttf` from their originals (`*.original.ttf`). The originals are never modified, so the script is safe to re-run at any time. Requires `pip install fonttools` (one-time).
 
 ### Filtering
 
